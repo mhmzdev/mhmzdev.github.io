@@ -19,4 +19,10 @@
     .imgDiv {
         margin-top: 10%;
     }
+    #welcomeText {
+        font-size: 2vw;
+    }
+    #dynamicText {
+        font-size: 5vw;
+    }
 }

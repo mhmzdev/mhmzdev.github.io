@@ -10,4 +10,10 @@
         padding-top: 5%;
         height: 10%;
     }
+    #welcomeText {
+        font-size: 3vw;
+    }
+    #dynamicText {
+        font-size: 8vw;
+    }
 }

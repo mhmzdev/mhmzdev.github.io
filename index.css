@@ -1,12 +1,8 @@
-.myNavBar {
-    background-color: rgb(84, 197, 248);
-}
-
 .myNavBar .navbar-brand, .myNavBar .navbar-text {
     color: white;
     margin-left: 10%;
     font-size: 32px;
-    font-family: 'Kalam', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-brand:hover {
@@ -31,28 +27,80 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     color: rgb(1, 87, 155) !important;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
     background-color: rgb(84, 197, 248);
 }
 
-.msg {
-    font-size: 100%;
-    border-radius: 8px;
-    color: rgb(1, 155, 27);
-    background-color: rgb(184, 255, 202);
+.homeDiv {
+    height: 100%;
     text-align: center;
-    border: 1px solid rgb(1, 155, 1);
+    background-repeat: no-repeat;
+    background-image: url('images/back.jpg');
 }
 
-.deletedmsg {
-    font-size: 100%;
-    border-radius: 8px;
-    color: rgb(155, 1, 1);
-    background-color: rgb(255, 184, 184);
-    text-align: center;
-    border: 1px solid rgb(155, 1, 1);
+.homeElements {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#welcomeText {
+    color: white;
+    font-weight: 100;
+}
+
+#dynamicText {
+    color: white;
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.txt-type>.txt {
+    border-right: 0.1rem solid white;
+}
+
+.myWorkBtn {
+    margin-top: 2%;
+    width: 12%;
+    height: 3vw;
+    background-color: rgb(84, 197, 248);
+    border-color: rgb(84, 197, 248);
+}
+
+#btnText {
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.myWorkBtn:hover {
+    border-color: rgb(1, 87, 155);
+    background-color: rgb(1, 87, 155);
+}
+
+.aboutDiv {
+    height: 100%;
+    margin: 0;
+}
+
+.myPicture {
+    margin-left: 5%;
+    width: fit-content;
+    border-style: solid;
+}
+
+#myPic {
+    border-radius: 50%;
+    animation: pulse 2s infinite;
 }
 
 .blogHeadingContainer {
@@ -67,56 +115,12 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     font-size: 200%;
 }
 
-.blogs {
-    margin-top: 7%;
-}
-
-#deleteBtn {
-    float: right;
-}
-
-.post {
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    height: 60%;
-    padding-bottom: 10%;
-}
-
-div.post {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-
-#readMoreBtn {
-    border-radius: 10px;
-    width: 100%;    
-    font-size: 130%;
-    color: white !important;
-    background-color: rgb(84, 197, 248);
-    border-color: white;
-}
-
-#deleteBtn {
-    color: white;
-    
-}
-
-#readMoreBtn:hover {
-    color: white !important;
-    border-color: rgb(84, 197, 248);
-    background-color: rgb(1, 87, 155);
-}
-
 .footerContainer {
     background-color: rgb(65, 65, 65);
     bottom: 0;
     left: 0;
     height: 13%;
-    position: absolute;
 }
-
 
 #copyright {
     color: white;
@@ -142,23 +146,6 @@ div.post {
 
 .imgDiv {
     top: 10%;
-}
-
-.postDesc {
-    padding-bottom: 1%;
-}
-
-#postText {
-    text-align: justify;
-    font-size: 150%;
-}
-
-#postedBy {
-    font-size: 100%;
-}
-
-#postTopic {
-    font-size: 220%;
 }
 
 .up {

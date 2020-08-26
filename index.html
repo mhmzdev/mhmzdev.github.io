@@ -46,6 +46,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
     <!-- For 'fa' font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -53,7 +55,7 @@
 <body>
 
     <!-- Nav Bar Code -->
-    <nav id="navBar" class="navbar navbar-expand-sm navbar-light myNavBar">
+    <nav id="navBar" class="navbar navbar-expand-sm navbar-light fixed-top myNavBar">
         <!-- Brand Name -->
         <a href="index.php" class="navbar-brand">Hamza</a>
         <!-- Collapse Button for smaller screen size -->
@@ -82,8 +84,25 @@
         </div>
     </nav>
 
+    <div class="homeDiv">
+        <div class="homeElements container-fluid">
+            <h3 id="welcomeText">WELCOME TO MY PORTFOLIO</h3>
+            <h1 id="dynamicText">
+                <span class="txt-type" data-wait=1000ms data-words='["Flutter Developer", "UI Enthusiast", "Technical Writer"]'></span>
+            </h1>
+            <button class="btn btn-primary myWorkBtn"><span id="btnText">My Work</button>
+        </div>
+    </div>
+
+    <div class="aboutDiv">
+        <img src="images/svg/blueWave.svg" width="100%">
+        <div class="myPicture">
+            <img id="myPic" src="images/about/myPic.png" alt="">
+        </div>
+    </div>
+
     <!-- Header Mobile Images -->
-    <header class="container-fluid" style="position: absolute;">
+    <!-- <header class="container-fluid" style="position: absolute;">
         <div class="row">
             <div class="animated animatedFadeInUp fadeInUp mobileImage col-10 col-sm-10 col-md-10 col-lg-10 "
                 style="margin-top: 8%;">
@@ -93,31 +112,31 @@
                 <img src="images/svg/mobileSolutoin.svg" width="100%">
             </div>
         </div>
-    </header>
+    </header> -->
 
     <!-- Blue Wave Image on Top -->
-    <div class="blueWaveImage">
+    <!-- <div class="blueWaveImage">
         <img src="images/svg/blueWave.svg" width="100%">
-    </div>
+    </div> -->
 
     <!-- 'BLOG' Heading -->
-    <div class="blogHeadingContainer">
+    <!-- <div class="blogHeadingContainer">
         <h1 id="blogHeading">About</h1>
-    </div>
+    </div> -->
 
     <!-- Footer -->
-    <footer class="container-fluid footerContainer">
+    <!--<footer class="container-fluid footerContainer">
         <div class="row">
-            <!-- Copyright Text -->
+            
             <div class="copyrightDiv col-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
                 <p id="copyright">&copy;All Right Reservered by Muhammad Hamza</p>
             </div>
-            <!-- Scroll on Top Button -->
+            
             <div id="up" class="up">
                 <i class="fas fa-chevron-up"></i>
             </div>
         </div>
-    </footer>
+    </footer>-->
 
     <!-- Scripts for animations & Scroll on top to work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
