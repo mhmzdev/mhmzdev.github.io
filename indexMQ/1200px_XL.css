@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1200px) {
+    .post {
+        padding-bottom: 5%;
+    }
+    #readMoreBtn {
+        width: 40%;
+        height: 15%;
+    }
+    .footerContainer {
+        padding-top: 2%;
+        height: 10%;
+    }
+    #blogHeading {
+        font-size: 300%;
+    }
+    .headerLinks {
+        margin-top: 1%;
+    }
+    .imgDiv {
+        margin-top: 10%;
+    }
+}

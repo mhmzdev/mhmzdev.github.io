@@ -1,0 +1,6 @@
+@media only screen and (min-width: 768px) {
+    .footerContainer {
+        padding-top: 2.5%;
+        height: 10%;
+    }
+}

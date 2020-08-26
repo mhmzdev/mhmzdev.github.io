@@ -1,0 +1,9 @@
+@media only screen and (min-width: 993px) {
+    #postText {
+        font-size: 100%;
+    }
+    .footerContainer {
+        padding-top: 2.5%;
+        height: 10%;
+    }
+}

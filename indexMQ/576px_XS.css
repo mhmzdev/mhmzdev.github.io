@@ -1,0 +1,13 @@
+@media only screen and (min-width: 576px) {
+    .footerContainer {
+        padding-top: 2.5%;
+        height: 10%;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .footerContainer {
+        padding-top: 5%;
+        height: 10%;
+    }
+}
