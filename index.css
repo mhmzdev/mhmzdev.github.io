@@ -75,6 +75,8 @@ html, body {
 .myWorkBtn {
     margin-top: 2%;
     transition: 0.5s;
+    border-color: rgb(61, 147, 112);
+    background-color: rgb(61, 147, 112);
 }
 
 #btnText {
@@ -84,8 +86,8 @@ html, body {
 }
 
 .myWorkBtn:hover {
-    border-color: rgb(1, 87, 155);
-    background-color: rgb(1, 87, 155);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(42, 102, 78);
 }
 
 .aboutDiv {
@@ -106,11 +108,13 @@ html, body {
 
 .downloadBtn {
     transition: 0.5s;
+    border-color: rgb(61, 147, 112);
+    background-color: rgb(61, 147, 112);
 }
 
 .downloadBtn:hover {
     border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(1, 99, 173);
+    background-color: rgb(42, 102, 78);
 }
 
 #myPic {
@@ -173,38 +177,6 @@ html, body {
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
 }
-
-/*
-.aboutSection {
-    position: absolute;
-    margin-top: 8%;
-}
-
-.aboutMe {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-left: 0.1vw solid white;
-}
-
-.meInfo {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-#aboutMeText {
-    letter-spacing: 1px;
-    color: white;
-    text-align: justify;
-    font-family: 'Nunito', sans-serif;
-}
-
-#aboutMeInfo {
-    color: white;
-    text-align: right;
-    line-height: 180%;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-}*/
 
 .blogHeadingContainer {
     border-left: 0.2rem rgb(1, 87, 155) solid;
