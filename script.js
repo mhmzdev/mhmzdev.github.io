@@ -1,11 +1,11 @@
-// $(window).scroll(function () {
-//   var scroll = $(window).scrollTop();
-//   if (scroll < 800) {
-//       $('.navbar').css('background', 'transparent');
-//   } else {
-//       $('.navbar').css('background', 'rgb(84, 197, 248)');
-//   }
-// });
+  // $(window).scroll(function () {
+  //   var scroll = $(window).scrollTop();
+  //   if (scroll < 500) {
+  //     $('.navbar').css('background', 'transparent');
+  //   } else {
+  //     $('.navbar').css('background', 'rgb(27,23,46)');
+  //   }
+  // });
 
 $(document).ready(function () {
   $(document).on("scroll", onScroll);
