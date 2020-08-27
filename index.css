@@ -6,7 +6,8 @@
 }
 
 .navbar-brand:hover {
-    color: rgb(1, 87, 155) !important;
+    color: white !important;
+    text-decoration: underline;
 }
 
 nav .navbar-nav li a {
@@ -16,11 +17,13 @@ nav .navbar-nav li a {
 }
 
 .navbar-light .nav-item>.nav-link.active {
-    color: rgb(1, 87, 155) !important;
+    color: white !important;
+    text-decoration: underline;
 }
 
 nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
-    color: rgb(1, 87, 155) !important;
+    color: white !important;
+    text-decoration: underline;
 }
 
 #logOutLink {

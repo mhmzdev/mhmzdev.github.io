@@ -60,7 +60,7 @@
     <!-- Nav Bar Code -->
     <nav id="navBar" class="navbar navbar-expand-sm navbar-light fixed-top myNavBar">
         <!-- Brand Name -->
-        <a href="index.php" class="navbar-brand">Hamza</a>
+        <a href="index.html" class="navbar-brand">Hamza</a>
         <!-- Collapse Button for smaller screen size -->
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon">
@@ -71,10 +71,10 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a id="homeLink" href="#homeDiv" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a id="aboutLink" href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Services</a>
@@ -89,7 +89,7 @@
         </div>
     </nav>
 
-    <div class="homeDiv">
+    <div id="homeDiv" class="homeDiv">
         <div class="homeElements container-fluid">
             <h3 id="welcomeText">WELCOME TO MY PORTFOLIO</h3>
             <h1 id="dynamicText">
@@ -100,7 +100,8 @@
         </div>
     </div>
 
-    <div class="aboutDiv">
+    <div id="about" class="aboutDiv">
+
         <div class="backWaveImg">
             <img src="images/svg/blueWave.svg" width="100%">
         </div>
@@ -124,7 +125,7 @@
             <div class="row">
 
                 <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-                
+
                 <div class="aboutMe col-12 col-sm-12 col-md-10 col-lg-5 col-xl-4">
                     <h1 id="meHeading">About Me</h1>
                     <p id="aboutMeText">
@@ -151,10 +152,14 @@
             </div>
         </div>
 
-        <div>he</div>
+    </div>
 
-        <!-- Header Mobile Images -->
-        <!-- <header class="container-fluid" style="position: absolute;">
+    <div id="services" class="servicesDiv">
+
+    </div>
+
+    <!-- Header Mobile Images -->
+    <!-- <header class="container-fluid" style="position: absolute;">
         <div class="row">
             <div class="animated animatedFadeInUp fadeInUp mobileImage col-10 col-sm-10 col-md-10 col-lg-10 "
                 style="margin-top: 8%;">
@@ -166,18 +171,18 @@
         </div>
     </header> -->
 
-        <!-- Blue Wave Image on Top -->
-        <!-- <div class="blueWaveImage">
+    <!-- Blue Wave Image on Top -->
+    <!-- <div class="blueWaveImage">
         <img src="images/svg/blueWave.svg" width="100%">
     </div> -->
 
-        <!-- 'BLOG' Heading -->
-        <!-- <div class="blogHeadingContainer">
+    <!-- 'BLOG' Heading -->
+    <!-- <div class="blogHeadingContainer">
         <h1 id="blogHeading">About</h1>
     </div> -->
 
-        <!-- Footer -->
-        <!--<footer class="container-fluid footerContainer">
+    <!-- Footer -->
+    <!--<footer class="container-fluid footerContainer">
         <div class="row">
             
             <div class="copyrightDiv col-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
@@ -190,24 +195,13 @@
         </div>
     </footer>-->
 
-        <!-- Scripts for animations & Scroll on top to work -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="script.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-                if (scroll < 100) {
-                    $('.myNavBar').css('background-color', 'transparent');
-                } else {
-                    $('.myNavBar').css('background-color', 'rgba(84, 197, 248, 0.0)');
-                }
-            });
-
-        </script>
-        <script>
-            AOS.init();
-        </script>
+    <!-- Scripts for animations & Scroll on top to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
