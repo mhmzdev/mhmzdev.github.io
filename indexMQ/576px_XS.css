@@ -6,6 +6,9 @@
 }
 
 @media only screen and (min-width: 390px) and (max-width: 576px) {
+    .myNavBar {
+        background-color: rgb(42, 102, 78) !important;
+    }
     .footerContainer {
         padding-top: 5%;
         height: 10%;

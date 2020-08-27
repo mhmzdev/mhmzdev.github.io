@@ -135,7 +135,7 @@ html, body {
 }
 
 .aboutInformation {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 #meHeading {
@@ -170,6 +170,7 @@ html, body {
 }
 
 #skill {
+    margin-top: 3%;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -179,16 +180,13 @@ html, body {
     font-family: 'Nunito', sans-serif;
 }
 
-.blogHeadingContainer {
-    border-left: 0.2rem rgb(1, 87, 155) solid;
-    margin-left: 8%;
-    padding-left: 1%;
+.progress {
+    height: 5px;
 }
 
-#blogHeading {
-    color: rgb(1, 87, 155) !important;
-    font-weight: bold;
-    font-size: 200%;
+.progress-bar {
+    height: 10px;
+    background-color: rgb(42, 102, 78);
 }
 
 .footerContainer {
