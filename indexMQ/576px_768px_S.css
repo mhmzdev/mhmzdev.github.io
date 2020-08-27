@@ -1,0 +1,32 @@
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .footerContainer {
+        padding-top: 2.5%;
+        height: 10%;
+    }
+    .aboutInformation {
+        text-align: center;
+    }
+    .aboutMe {
+        text-align: center;
+    }
+    #welcomeText {
+        font-size: 4vw;
+    }
+    #dynamicText {
+        font-size: 10vw;
+    }
+    .myWorkBtn {
+        width: 20vw;
+        height: 5.5vw;
+    }
+    #btnText {
+        font-size: 2.5vw;
+    }
+    #aboutMeText {
+        font-size: 4vw;
+        text-align: justify;
+    }
+    #skill {
+        font-size: 3.5vw;
+    }
+}

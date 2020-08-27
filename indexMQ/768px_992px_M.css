@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
     .footerContainer {
         padding-top: 2.5%;
         height: 10%;
@@ -15,5 +15,17 @@
     }
     #dynamicText {
         font-size: 8vw;
+    }
+    #name {
+        color: black;
+    }
+    .nameBtn {
+        text-align: center;
+    }
+    #aboutMeText {
+        font-size: 2vw;
+    }
+    #skill{
+        font-size: 1.7vw;
     }
 }

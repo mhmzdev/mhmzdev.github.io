@@ -21,6 +21,7 @@
 
     <!-- Media Query Files -->
     <link rel="stylesheet" href="indexMQ/576px_XS.css">
+    <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
     <link rel="stylesheet" href="indexMQ/768px_992px_M.css">
     <link rel="stylesheet" href="indexMQ/992px_1200px_L.css">
     <link rel="stylesheet" href="indexMQ/1200px_XL.css">
@@ -62,7 +63,9 @@
         <a href="index.php" class="navbar-brand">Hamza</a>
         <!-- Collapse Button for smaller screen size -->
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+            </span>
         </button>
         <!-- Nav Buttons on left side -->
         <div class="collapse navbar-collapse" id="navbarMenu">
@@ -104,23 +107,25 @@
 
         <div class="container-fluid picName">
             <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-2 picDiv">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+                <div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 picDiv">
                     <img id="myPic" src="images/about/newPic.png" alt="">
                 </div>
-                <div class="col-lg-5">
+                <div class="col-12 col-sm-12 col-lg-5 col-xl-5 nameBtn">
                     <h1 id="name">Muhammad Hamza</h1>
-                    <form action="images/about/resume.pdf">
-                        <button class="btn btn-primary">Download Resume <i class="fa fa-download"
-                                aria-hidden="true"></i></button></form>
+                    <a href="images/about/hamza_resume.pdf" download="hamza_resume.pdf"
+                        class="btn btn-primary downloadBtn">Download
+                        Resume <i class="fa fa-download" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid aboutInformation">
             <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="aboutMe col-lg-5">
+
+                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+                
+                <div class="aboutMe col-12 col-sm-12 col-md-10 col-lg-5 col-xl-4">
                     <h1 id="meHeading">About Me</h1>
                     <p id="aboutMeText">
                         DSC Lead CUI and Founder Flutter
@@ -131,9 +136,9 @@
                         <br><br> Enjoy and Happy Fluttering :)</p>
                 </div>
 
-                <div class="col-lg-5 mySkills">
-                    <h1 id="skillHeading">My Skills</h1>
-                    <ul style="text-align: right; list-style: none;">
+                <div class="col-12 col-md-11 col-lg-5 col-xl-6 mySkills">
+                    <h1 id="skillHeading">My Skills</h1> <br>
+                    <ul id="skillsList">
                         <li id="skill">Flutter Development</li>
                         <li id="skill">Firebase</li>
                         <li id="skill">Dart</li>
@@ -146,41 +151,7 @@
             </div>
         </div>
 
-        <!-- <div class="container-fluid">
-            <div class="myPicture row">
-                <div class="col-lg-3">
-                    <img id="myPic" src="images/about/myPic.png" alt="">
-                </div>
-                <div class="col-lg-5">
-                    <h1 id="name">Muhammad Hamza</h1>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="aboutSection container-fluid">
-            <div class="row">
-                <div class="col-lg-6 meInfo">
-                    <h4 id="aboutMeInfo">
-                        Flutter Developer <br>
-                        UI Enthusiast <br>
-                        Writer @Medium <br>
-                        Open Source @GitHub <br>
-                    </h4>
-                </div>
-                <div class="col-lg-4 aboutMe">
-                    <p id="aboutMeText">
-                        DSC Lead CUI and Founder Flutter
-                        Islamabad,
-                        Pakistan. Self-taught flutter developer. Writing
-                        technical blogs on Medium and open source contributor at GitHub. Loves to help and share
-                        knowledge regarding technology like Flutter, Dart, Firebase, HTML, CSS, Bootstrap etc.
-                        <br><br> Enjoy and Happy Fluttering :)</p>
-                </div>
-            </div>
-        </div>
-
-    </div> -->
+        <div>he</div>
 
         <!-- Header Mobile Images -->
         <!-- <header class="container-fluid" style="position: absolute;">

@@ -71,10 +71,7 @@ html, body {
 
 .myWorkBtn {
     margin-top: 2%;
-    /* width: 12%;
-    height: 3vw; */
-    background-color: rgb(84, 197, 248);
-    border-color: rgb(84, 197, 248);
+    transition: 0.5s;
 }
 
 #btnText {
@@ -102,6 +99,15 @@ html, body {
 .backWaveImg {
     position: absolute;
     width: 100%;
+}
+
+.downloadBtn {
+    transition: 0.5s;
+}
+
+.downloadBtn:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(1, 99, 173);
 }
 
 #myPic {
@@ -147,9 +153,13 @@ html, body {
 }
 
 .mySkills {
+    text-align: right;
     padding-top: 2%;
-  
     border-right: 0.2vw solid rgb(88, 88, 88);
+}
+
+#skillsList {
+    list-style: none;
 }
 
 #skill {
@@ -157,7 +167,6 @@ html, body {
 }
 
 #skillHeading {
-    text-align: right;
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
 }

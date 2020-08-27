@@ -5,23 +5,6 @@
     }
 }
 
-@media only screen and (min-width: 577px) {
-    #welcomeText {
-        font-size: 4vw;
-    }
-    #dynamicText {
-        font-size: 10vw;
-    }
-    .myWorkBtn {
-        width: 20vw;
-        height: 5.5vw;
-    }
-    #btnText {
-        font-size: 2.5vw;
-    }
-}
-
-
 @media only screen and (min-width: 390px) and (max-width: 576px) {
     .footerContainer {
         padding-top: 5%;
@@ -36,5 +19,42 @@
     .myWorkBtn {
         width: 35vw;
         height: 10vw;
+    }
+    .picName {
+        padding-top: 25%;
+    }
+    #name {
+        color: black;
+        font-size: 9.5vw;
+    }
+    #skill {
+        font-size: 5vw;
+    }
+    .aboutInformation {
+        text-align: center;
+    }
+    #aboutMeText {
+        font-size: 5vw;
+        text-align: justify;
+    }
+    .aboutMe {
+        border-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 768px) {
+    #name {
+        color: black;
+        font-size: 9.5vw;
+    }
+    .nameBtn {
+        text-align: center;
+    }
+    .aboutMe {
+        padding: 5%;
+    }
+    .mySkills {
+        border-right: 0px;
+        text-align: center;
     }
 }

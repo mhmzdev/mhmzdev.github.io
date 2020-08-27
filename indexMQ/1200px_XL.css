@@ -25,4 +25,11 @@
     #btnText {
         font-size: 1.2vw;
     }
+    #aboutMeText {
+        font-size: 1.2vw;
+        letter-spacing: 0px;
+    }
+    #skill {
+        font-size: 1.1vw;
+    }
 }

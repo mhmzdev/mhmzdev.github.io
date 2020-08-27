@@ -3,6 +3,10 @@
         padding-top: 2.5%;
         height: 10%;
     }
+    #name {
+        color: white;
+        text-align: left;
+    }
     .myWorkBtn {
         width: 15vw;
         height: 4vw;
@@ -15,5 +19,11 @@
     }
     #dynamicText {
         font-size: 6vw;
+    }
+    #aboutMeText {
+        font-size: 1.5vw;
+    }
+    #skill {
+        font-size: 1.5vw;
     }
 }
