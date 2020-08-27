@@ -47,6 +47,8 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 
     <!-- For 'fa' font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -96,17 +98,92 @@
     </div>
 
     <div class="aboutDiv">
-        <div class="myPicture">
-            <img id="myPic" src="images/about/myPic.png" alt="">
+        <div class="backWaveImg">
+            <img src="images/svg/blueWave.svg" width="100%">
         </div>
 
-        <div class="aboutSection"></div>
+        <div class="container-fluid picName">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-2 picDiv">
+                    <img id="myPic" src="images/about/newPic.png" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <h1 id="name">Muhammad Hamza</h1>
+                    <form action="images/about/resume.pdf">
+                        <button class="btn btn-primary">Download Resume <i class="fa fa-download"
+                                aria-hidden="true"></i></button></form>
+                </div>
+            </div>
+        </div>
 
-        <img src="images/svg/blueWave.svg" width="100%">
-    </div>
+        <div class="container-fluid aboutInformation">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="aboutMe col-lg-5">
+                    <h1 id="meHeading">About Me</h1>
+                    <p id="aboutMeText">
+                        DSC Lead CUI and Founder Flutter
+                        Islamabad,
+                        Pakistan. Self-taught flutter developer. Writing
+                        technical blogs on Medium and open source contributor at GitHub. Loves to help and share
+                        knowledge regarding technology like Flutter, Dart, Firebase, HTML, CSS, Bootstrap etc.
+                        <br><br> Enjoy and Happy Fluttering :)</p>
+                </div>
 
-    <!-- Header Mobile Images -->
-    <!-- <header class="container-fluid" style="position: absolute;">
+                <div class="col-lg-5 mySkills">
+                    <h1 id="skillHeading">My Skills</h1>
+                    <ul style="text-align: right; list-style: none;">
+                        <li id="skill">Flutter Development</li>
+                        <li id="skill">Firebase</li>
+                        <li id="skill">Dart</li>
+                        <li id="skill">HTML5</li>
+                        <li id="skill">CSS</li>
+                        <li id="skill">Bootstrap</li>
+                        <li id="skill">Video Editing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container-fluid">
+            <div class="myPicture row">
+                <div class="col-lg-3">
+                    <img id="myPic" src="images/about/myPic.png" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <h1 id="name">Muhammad Hamza</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="aboutSection container-fluid">
+            <div class="row">
+                <div class="col-lg-6 meInfo">
+                    <h4 id="aboutMeInfo">
+                        Flutter Developer <br>
+                        UI Enthusiast <br>
+                        Writer @Medium <br>
+                        Open Source @GitHub <br>
+                    </h4>
+                </div>
+                <div class="col-lg-4 aboutMe">
+                    <p id="aboutMeText">
+                        DSC Lead CUI and Founder Flutter
+                        Islamabad,
+                        Pakistan. Self-taught flutter developer. Writing
+                        technical blogs on Medium and open source contributor at GitHub. Loves to help and share
+                        knowledge regarding technology like Flutter, Dart, Firebase, HTML, CSS, Bootstrap etc.
+                        <br><br> Enjoy and Happy Fluttering :)</p>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+        <!-- Header Mobile Images -->
+        <!-- <header class="container-fluid" style="position: absolute;">
         <div class="row">
             <div class="animated animatedFadeInUp fadeInUp mobileImage col-10 col-sm-10 col-md-10 col-lg-10 "
                 style="margin-top: 8%;">
@@ -118,18 +195,18 @@
         </div>
     </header> -->
 
-    <!-- Blue Wave Image on Top -->
-    <!-- <div class="blueWaveImage">
+        <!-- Blue Wave Image on Top -->
+        <!-- <div class="blueWaveImage">
         <img src="images/svg/blueWave.svg" width="100%">
     </div> -->
 
-    <!-- 'BLOG' Heading -->
-    <!-- <div class="blogHeadingContainer">
+        <!-- 'BLOG' Heading -->
+        <!-- <div class="blogHeadingContainer">
         <h1 id="blogHeading">About</h1>
     </div> -->
 
-    <!-- Footer -->
-    <!--<footer class="container-fluid footerContainer">
+        <!-- Footer -->
+        <!--<footer class="container-fluid footerContainer">
         <div class="row">
             
             <div class="copyrightDiv col-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
@@ -142,24 +219,24 @@
         </div>
     </footer>-->
 
-    <!-- Scripts for animations & Scroll on top to work -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        $(window).scroll(function () {
-            var scroll = $(window).scrollTop();
-            if (scroll < 100) {
-                $('.myNavBar').css('background-color', 'transparent');
-            } else {
-                $('.myNavBar').css('background-color', 'rgba(84, 197, 248, 0.0)');
-            }
-        });
+        <!-- Scripts for animations & Scroll on top to work -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll < 100) {
+                    $('.myNavBar').css('background-color', 'transparent');
+                } else {
+                    $('.myNavBar').css('background-color', 'rgba(84, 197, 248, 0.0)');
+                }
+            });
 
-    </script>
-    <script>
-        AOS.init();
-    </script>
+        </script>
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 

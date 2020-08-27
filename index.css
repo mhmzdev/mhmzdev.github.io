@@ -95,15 +95,104 @@ html, body {
 
 .myPicture {
     margin-left: 5%;
-    width: fit-content;
     position: absolute;
-    margin-top: 27%;
+    margin-top: 30%;
+}
+
+.backWaveImg {
+    position: absolute;
+    width: 100%;
 }
 
 #myPic {
+    width: 100%;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
+
+.picName {
+    padding-top: 8%;
+}
+
+#name {
+    color: white;
+    /* margin-left: 5%; */
+    margin-top: 3%;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.aboutInformation {
+    margin-top: 8%;
+}
+
+#meHeading {
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+
+.aboutMe {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border-left: 0.2vw solid rgb(88, 88, 88);
+}
+
+#aboutMeText {
+    font-size: 1.1vw;
+    color: black;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+.mySkills {
+    padding-top: 2%;
+  
+    border-right: 0.2vw solid rgb(88, 88, 88);
+}
+
+#skill {
+    font-family: 'Nunito', sans-serif;
+}
+
+#skillHeading {
+    text-align: right;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*
+.aboutSection {
+    position: absolute;
+    margin-top: 8%;
+}
+
+.aboutMe {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-left: 0.1vw solid white;
+}
+
+.meInfo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#aboutMeText {
+    letter-spacing: 1px;
+    color: white;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+
+#aboutMeInfo {
+    color: white;
+    text-align: right;
+    line-height: 180%;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}*/
 
 .blogHeadingContainer {
     border-left: 0.2rem rgb(1, 87, 155) solid;
@@ -172,7 +261,8 @@ html, body {
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(65, 136, 132, 0.99);
+        box-shadow: 0 0 0 0 white;
+        /* box-shadow: 0 0 0 0 rgba(65, 136, 132, 0.99); */
     }
     100% {
         box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
