@@ -1,4 +1,5 @@
 
+
 $(document).ready(function () {
   // For Scroll to Top Animation
   $("#up").on("click", function () {

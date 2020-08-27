@@ -1,11 +1,4 @@
 @media only screen and (min-width: 1200px) {
-    .post {
-        padding-bottom: 5%;
-    }
-    #readMoreBtn {
-        width: 40%;
-        height: 15%;
-    }
     .footerContainer {
         padding-top: 2%;
         height: 10%;
@@ -24,5 +17,12 @@
     }
     #dynamicText {
         font-size: 5vw;
+    }
+    .myWorkBtn {
+        width: 15vw;
+        height: 3vw;
+    }
+    #btnText {
+        font-size: 1.2vw;
     }
 }

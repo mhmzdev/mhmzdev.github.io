@@ -3,4 +3,17 @@
         padding-top: 2.5%;
         height: 10%;
     }
+    .myWorkBtn {
+        width: 15vw;
+        height: 4vw;
+    }
+    #btnText {
+        font-size: 2vw;
+    }
+    #welcomeText {
+        font-size: 3vw;
+    }
+    #dynamicText {
+        font-size: 8vw;
+    }
 }

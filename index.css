@@ -71,13 +71,14 @@ html, body {
 
 .myWorkBtn {
     margin-top: 2%;
-    width: 12%;
-    height: 3vw;
+    /* width: 12%;
+    height: 3vw; */
     background-color: rgb(84, 197, 248);
     border-color: rgb(84, 197, 248);
 }
 
 #btnText {
+    font-size: 3vw;
     letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -95,7 +96,8 @@ html, body {
 .myPicture {
     margin-left: 5%;
     width: fit-content;
-    border-style: solid;
+    position: absolute;
+    margin-top: 27%;
 }
 
 #myPic {

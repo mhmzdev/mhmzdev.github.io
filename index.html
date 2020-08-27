@@ -88,17 +88,21 @@
         <div class="homeElements container-fluid">
             <h3 id="welcomeText">WELCOME TO MY PORTFOLIO</h3>
             <h1 id="dynamicText">
-                <span class="txt-type" data-wait=1000ms data-words='["Flutter Developer", "UI Enthusiast", "Technical Writer"]'></span>
+                <span class="txt-type" data-wait=1000ms
+                    data-words='["Flutter Developer", "UI Enthusiast", "Technical Writer"]'></span>
             </h1>
-            <button class="btn btn-primary myWorkBtn"><span id="btnText">My Work</button>
+            <button class="btn btn-primary myWorkBtn"><span id="btnText">My Work</span></button>
         </div>
     </div>
 
     <div class="aboutDiv">
-        <img src="images/svg/blueWave.svg" width="100%">
         <div class="myPicture">
             <img id="myPic" src="images/about/myPic.png" alt="">
         </div>
+
+        <div class="aboutSection"></div>
+
+        <img src="images/svg/blueWave.svg" width="100%">
     </div>
 
     <!-- Header Mobile Images -->
@@ -142,6 +146,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll < 100) {
+                $('.myNavBar').css('background-color', 'transparent');
+            } else {
+                $('.myNavBar').css('background-color', 'rgba(84, 197, 248, 0.0)');
+            }
+        });
+
+    </script>
     <script>
         AOS.init();
     </script>
