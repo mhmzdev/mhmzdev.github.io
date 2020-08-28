@@ -1,11 +1,11 @@
-// $(window).scroll(function () {
-//   var scroll = $(window).scrollTop();
-//   if (scroll < 500) {
-//     $('.navbar').css('background', 'transparent');
-//   } else {
-//     $('.navbar').css('background', 'rgb(27,23,46)');
-//   }
-// });
+$(window).scroll(function () {
+  var scroll = $(window).scrollTop();
+  if (scroll < 900) {
+    $('.navbar').css('background-color', 'transparent');
+  } else {
+    $('.navbar').css('background-color', 'rgb(33,92,101)');
+  }
+});
 
 $(document).ready(function () {
   $('.progress .progress-bar').css("width",

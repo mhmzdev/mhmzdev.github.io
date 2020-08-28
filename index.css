@@ -160,7 +160,6 @@ html, body {
 }
 
 .mySkills {
-    text-align: right;
     padding-top: 2%;
     border-right: 0.2vw solid rgb(42, 102, 78);
 }
@@ -170,21 +169,29 @@ html, body {
 }
 
 #skill {
+    text-align: right;
     margin-top: 3%;
     font-family: 'Nunito', sans-serif;
 }
 
+#skillName {
+    text-align: right;
+}
+
 #skillHeading {
+    text-align: right;
     color: rgb(42, 102, 78);
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
 }
 
 .progress {
+    background-color: lightgrey;
     height: 5px;
 }
 
 .progress-bar {
+    border-radius: 50px;
     height: 10px;
     background-color: rgb(42, 102, 78);
 }
