@@ -41,6 +41,8 @@ html, body {
     background-color: rgb(84, 197, 248);
 }
 
+/* HOME SECTION */
+
 .homeDiv {
     height: 100%;
     text-align: center;
@@ -90,10 +92,7 @@ html, body {
     background-color: rgb(42, 102, 78);
 }
 
-.aboutDiv {
-    height: 100%;
-    margin: 0;
-}
+/* ABOUT SECTION */
 
 .myPicture {
     margin-left: 5%;
@@ -133,6 +132,8 @@ html, body {
     font-size: 5vw;
     font-weight: 600;
 }
+
+/* ABOUT INFORMATION & SKILLS */
 
 .aboutInformation {
     margin-top: 3%;
@@ -194,6 +195,86 @@ html, body {
     border-radius: 50px;
     height: 10px;
     background-color: rgb(42, 102, 78);
+}
+
+/* SERVICES SECTION */
+
+.servicesDiv {
+    padding: 2%;
+    margin-top: 5%;
+    background-color: rgb(169, 214, 185);
+}
+
+.serviceHeading {
+    margin-top: 5%;
+    padding-top: 1%;
+    text-align: center;
+    border-top: 1px solid rgb(42, 102, 78);
+    border-bottom: 1px solid rgb(42, 102, 78);
+}
+
+#serviceHeadingTxt {
+    font-weight: 700;
+    color: rgb(42, 102, 78);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* OFFERS DIV */
+
+.offers {
+    margin-top: 3%;
+}
+
+#offerImg {
+    height: auto;
+    width: 20%;
+}
+
+#offerName {
+    margin-top: 3%;
+    font-weight: 700;
+    color: rgb(42, 102, 78);
+    font-family: 'Nunito', sans-serif;
+}
+
+#offerDesc {
+    font-family: 'Nunito', sans-serif;
+}
+
+.offerType {
+    background-color: white;
+    text-align: center;
+}
+
+/* STATS CONTAINER*/
+
+.statsContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#exp {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: rgb(42, 102, 78);
+}
+
+.statsType {
+    width: fit-content;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#statsCounter {
+    font-size: 280%;
+    text-align: center;
+    color: rgb(42, 102, 78) !important;
+}
+
+#statsDescription {
+    font-size: 120%;
+    font-weight: bold;
 }
 
 .footerContainer {

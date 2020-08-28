@@ -24,7 +24,7 @@
         height: 10vw;
     }
     .picName {
-        padding-top: 25%;
+        padding-top: 10%;
     }
     #name {
         color: black;
@@ -33,15 +33,14 @@
     #skill {
         font-size: 3.5vw;
     }
-    .aboutInformation {
-        text-align: center;
-    }
     #aboutMeText {
         font-size: 3.5vw;
-        text-align: justify;
     }
     .aboutMe {
         border-left: 0px;
+    }
+    .backWaveImg {
+        visibility: hidden;
     }
 }
 
@@ -59,5 +58,16 @@
     .mySkills {
         border-right: 0px;
         text-align: center;
+    }
+    #serviceHeadingTxt {
+        font-size: 8vw;
+    }
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgb(42, 102, 78);
+        }
+        100% {
+            box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+        }
     }
 }

@@ -25,7 +25,14 @@
     #aboutMeText {
         font-size: 2vw;
     }
-    #skill{
+    #skill {
         font-size: 1.7vw;
+    }
+    .offerType {
+        margin-left: 8%;
+    }
+    #exp {
+        margin-left: 8%;
+        margin-top: 8%;
     }
 }

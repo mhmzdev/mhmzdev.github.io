@@ -32,4 +32,10 @@
     #skill {
         font-size: 1.1vw;
     }
+    #serviceHeadingTxt {
+        font-size: 2vw;
+    }
+    .other {
+        margin-left: 5%;
+    }
 }

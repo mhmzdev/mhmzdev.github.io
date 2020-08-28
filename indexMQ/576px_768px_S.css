@@ -29,4 +29,14 @@
     #skill {
         font-size: 2.5vw;
     }
+    .statsContainer {
+        width: 50%;
+        margin-left: 25%;        
+    }
+    #serviceHeadingTxt {
+        font-size: 4vw;
+    }
+    .offerType {
+        margin-left: 8%;
+    }
 }

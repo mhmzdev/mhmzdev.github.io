@@ -1,4 +1,4 @@
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
     .footerContainer {
         padding-top: 2.5%;
         height: 10%;
@@ -25,5 +25,15 @@
     }
     #skill {
         font-size: 1.5vw;
+    }
+    .other {
+        margin-left: 5%;
+    }
+    #exp {
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+    #serviceHeadingTxt {
+        font-size: 2vw;
     }
 }
