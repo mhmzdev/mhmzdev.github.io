@@ -82,9 +82,10 @@
     }
 
     #btnText {
+        color: white;
         font-size: 3vw;
         letter-spacing: 2px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Nunito', sans-serif;
     }
 
     .myWorkBtn:hover {
