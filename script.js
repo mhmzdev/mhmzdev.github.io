@@ -8,7 +8,6 @@ $(window).scroll(function () {
   }
 });
 
-
 // Animate the progress bar
 $(document).ready(function () {
   $('.progress .progress-bar').css("width",
@@ -17,6 +16,7 @@ $(document).ready(function () {
     }
   )
 });
+
 
 $(document).ready(function () {
   $(document).on("scroll", onScroll);
@@ -36,7 +36,7 @@ $(document).ready(function () {
     $target = $(target);
     $('html, body').stop().animate({
       'scrollTop': $target.offset().top + 2
-    }, 500, 'swing', function () {
+    }, 1000, 'swing', function () {
       window.location.hash = target;
       $(document).on("scroll", onScroll);
     });

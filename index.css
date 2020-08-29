@@ -197,6 +197,11 @@ html, body {
     background-color: rgb(42, 102, 78);
 }
 
+.ui-progressbar-value {
+    transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+}
+
 /* SERVICES SECTION */
 
 .servicesDiv {
