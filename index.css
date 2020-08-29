@@ -286,6 +286,39 @@
         font-weight: bold;
     }
 
+    /* TOOLS & TECH */
+
+    .toolstech {
+        margin-top: 5%;
+    }
+
+    .tools {
+        text-align: center;
+    }
+
+    .tool {
+        text-align: center;
+    }
+
+    #toolName {
+        font-size: 100%;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    #ppImg {
+        height: 40%;
+        width: auto;
+    }
+
+    #ppXD {
+        height: 40%;
+        width: 40%;
+    }
+
+    #devicons {
+        font-size: 40px;
+    }
+
     /* GITHUB REPOS */
 
     .repos {
@@ -352,6 +385,8 @@
         color: rgb(42, 102, 78);
         transform: scale(2, 2);
     }
+
+    /* FOOTER */
 
     .footerContainer {
         background-color: rgb(65, 65, 65);

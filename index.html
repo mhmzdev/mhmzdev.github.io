@@ -19,6 +19,8 @@
 
     <link rel="stylesheet" href="_animation.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
     <!-- Media Query Files -->
     <link rel="stylesheet" href="indexMQ/576px_XS.css">
     <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
@@ -83,6 +85,9 @@
                     <a id="serviceLink" href="#services" class="nav-link">SERVICES</a>
                 </li>
                 <li class="nav-item">
+                    <a id="toolsLink" href="#tools" class="nav-link">TOOLS & TECH</a>
+                </li>
+                <li class="nav-item">
                     <a id="githubLink" href="#github" class="nav-link">GITHUB REPOSITORIES</a>
                 </li>
                 <li class="nav-item">
@@ -132,10 +137,14 @@
                 <div class="aboutMe col-12 col-sm-12 col-md-11 col-lg-5 col-xl-5">
                     <h1 id="meHeading" data-aos="fade-in" data-aos-delay="300">About Me</h1>
                     <p id="aboutMeText">
-                        DSC Lead CUI and Founder Flutter
-                        Islamabad,
-                        Pakistan. Self-taught flutter developer. Writing
-                        technical blogs on Medium and open source contributor at GitHub. Loves to help and share
+                        DSC Lead CUI and <a id="abtLink" target="_blank"
+                            href="https://wwww.facebook.com/FlutterIslamabadPakistan/">Founder Flutter
+                            Islamabad,
+                            Pakistan</a>. Self-taught flutter developer. Writing
+                        technical blogs on <a id="abtLink" target="_blank" href="https://medium.com/@hamza.6.shakeel">Medium</a> and
+                        open
+                        source contributor at <a id="abtLink" target="_blank" href="https://github.com/m-hamzashakeel">GitHub</a>.
+                        Loves to help and share
                         knowledge regarding technology. I'm really interested to learn Artificial Intelligence (AI) and
                         Machine Learning (ML) alongside Augmented Reality (AR). <br><br>
 
@@ -309,6 +318,70 @@
         </div>
     </div>
 
+    <div id="tools" class="tools">
+        <div class="container-fluid">
+
+            <div class="row toolsHeading">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="githubHeadingTxt">Tools & Tech</h1>
+                </div>
+            </div>
+
+            <div class="row toolstech">
+                <div class="col-xl-1"></div>
+                <div class="flutterS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="100">
+                    <img id="ppImg" src="images/services/flutter.svg">
+                    <p id="toolName">Flutter</p>
+                </div>
+                <div class="dartS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="200">
+                    <img id="ppImg" src="images/services/dart.svg">
+                    <p id="toolName">Dart</p>
+                </div>
+                <div class="firebaseS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="300">
+                    <img id="ppImg" src="images/services/firebase.svg">
+                    <p id="toolName">Firebase</p>
+                </div>
+                <div class="html tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="400">
+                    <i id="devicons" class="devicon-html5-plain colored"></i>
+                    <p id="toolName">HTML5</p>
+                </div>
+                <div class="css tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down" data-aos-delay="500">
+                    <i id="devicons" class="devicon-css3-plain colored"></i>
+                    <p id="toolName">CSS</p>
+                </div>
+                <div class="bootstrap tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="600">
+                    <i id="devicons" class="devicon-bootstrap-plain colored"></i>
+                    <p id="toolName">Bootstrap</p>
+                </div>
+                <div class="vscode tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="700">
+                    <i id="devicons" class="devicon-visualstudio-plain colored"></i>
+                    <p id="toolName">VS Code</p>
+                </div>
+                <div class="php tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down" data-aos-delay="800">
+                    <i id="devicons" class="devicon-php-plain colored"></i>
+                    <p id="toolName">PHP</p>
+                </div>
+                <div class="pp tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down" data-aos-delay="900">
+                    <img id="ppXD" src="images/services/pp.svg">
+                    <p id="toolName">Premier Pro</p>
+                </div>
+                <div class="xd tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down" data-aos-delay="1000">
+                    <img id="ppXD" src="images/services/xd.svg">
+                    <p id="toolName">Adobe XD</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <div id="github" class="githubRepos">
 
         <div class="container-fluid ">
@@ -395,7 +468,7 @@
                     class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
                     href="https://github.com/m-hamzashakeel/My-Order-Resturant-Ordering-System">
                     <div class="repo">
-                        <img class="appIcon" src="images/svg/android.svg" alt="">
+                        <i style="color: green;" class="appIcon fa fa-android fa-2x" aria-hidden="true"></i>
                         <h5 id="repoName">My Order</h5>
                         <p id="repoDesc">Restaurant Ordering App in Android</p>
                     </div>
@@ -405,7 +478,7 @@
                     class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
                     href="https://github.com/m-hamzashakeel/Hidev_Web">
                     <div class="repo">
-                        <img class="appIcon" src="images/svg/code.svg" alt="">
+                        <i style="color: black;" class="appIcon fa fa-code fa-2x" aria-hidden="true"></i>
                         <h5 id="repoName">Hidev</h5>
                         <p id="repoDesc">Personal Blog Concept</p>
                     </div>
