@@ -33,7 +33,7 @@
         font-size: 1.1vw;
     }
     #serviceHeadingTxt {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     .other {
         margin-left: 5%;
@@ -44,5 +44,24 @@
     #exp {
         padding-top: 10%;
         padding-left: 10%;
+    }
+    #githubHeadingTxt {
+        font-size: 1.5vw;
+    }
+    .repos {
+        margin-top: 5%;
+    }
+    .repo {
+        margin-top: 8%;
+        height: 200px;
+    }
+    .repoLink {
+        margin-left: 0%;
+    }
+    .gitHeading {
+        padding-top: 3%;
+    }
+    .secRow {
+        margin-top: 2%;
     }
 }

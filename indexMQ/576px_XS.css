@@ -27,7 +27,7 @@
 
 @media only screen and (min-width: 360px) and (max-width: 576px) {
     .myNavBar {
-        background-color: rgb(42, 102, 78) !important;
+        background-color: rgb(33, 92, 101) !important;
     }
     .footerContainer {
         padding-top: 2.5%;
@@ -66,6 +66,15 @@
         margin-top: 5%;
         margin-left: 6%;
     }
+    #githubHeadingTxt {
+        font-size: 5vw;
+    }
+    .gitHeading {
+        margin-top: 20%;
+    }
+    .repo {
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 768px) {
@@ -93,5 +102,11 @@
         100% {
             box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
         }
+    }
+    .repos {
+        margin-top: 5%;
+    }
+    .repo {
+        margin-top: 5%;
     }
 }

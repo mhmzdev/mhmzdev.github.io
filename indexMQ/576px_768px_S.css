@@ -43,4 +43,13 @@
         padding-top: 10%;
         padding-left: 10%;
     }
+    #githubHeadingTxt {
+        font-size: 4vw;
+    }
+    .repo {
+        margin-top: 8%;
+    }
+    .repoLink {
+        margin-left: 15%;
+    }
 }

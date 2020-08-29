@@ -35,4 +35,16 @@
         margin-left: 4%;
         margin-top: 4%;
     }
+    #githubHeadingTxt {
+        font-size: 3vw;
+    }
+    .repos {
+        margin-top: 5%;
+    }
+    .repo {
+        margin-top: 8%;
+    }
+    .repoLink {
+        margin-left: 15%;
+    }
 }

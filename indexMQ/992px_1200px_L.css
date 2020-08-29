@@ -36,4 +36,16 @@
     #serviceHeadingTxt {
         font-size: 2vw;
     }
+    #githubHeadingTxt {
+        font-size: 2vw;
+    }
+    .repos {
+        margin-top: 5%;
+    }
+    .repo {
+        margin-top: 8%;
+    }
+    .repoLink {
+        margin-left: 12%;
+    }
 }
