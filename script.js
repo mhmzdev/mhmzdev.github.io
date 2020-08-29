@@ -4,9 +4,28 @@ $(window).scroll(function () {
   if (scroll < 900) {
     $('.navbar').css('background-color', 'transparent');
   } else {
-    $('.navbar').css('background-color', 'rgb(33,92,101)');
+    $('.navbar').css('background-color', 'rgb(42, 102, 78)');
   }
 });
+
+function fb() {
+  window.open("https://www.facebook.com/hamza.maddog", "_blank");
+}
+function twitter() {
+  window.open("https://twitter.com/m_hamzashakeel", "_blank");
+}
+function insta() {
+  window.open("https://instagram.com/m_hamzashakeel", "_blank");
+}
+function github() {
+  window.open("https://github.com/m-hamzashakeel", "_blank");
+}
+function medium() {
+  window.open("https://medium.com/@hamza.6.shakeel", "_blank");
+}
+function linkedIn() {
+  window.open("https://www.linkedin.com/in/m-hamzashakeel/", "_blank");
+}
 
 // Animate the progress bar
 $(document).ready(function () {
@@ -77,7 +96,7 @@ $(document).ready(function () {
   $("#up").on("click", function () {
     $("html, body").animate({
       scrollTop: 0
-    }, 700);
+    }, 1500);
   });
 
   // For Fade in animation
