@@ -1,3 +1,4 @@
+// Show navbar at specific scroll height
 $(window).scroll(function () {
   var scroll = $(window).scrollTop();
   if (scroll < 900) {
@@ -7,6 +8,8 @@ $(window).scroll(function () {
   }
 });
 
+
+// Animate the progress bar
 $(document).ready(function () {
   $('.progress .progress-bar').css("width",
     function () {
@@ -40,6 +43,8 @@ $(document).ready(function () {
   });
 });
 
+
+// To change the link active while scrolling in navbar
 function onScroll(event) {
   var scrollPos = $(document).scrollTop();
   $('#navbarMenu a').each(function () {
@@ -54,19 +59,6 @@ function onScroll(event) {
     }
   });
 }
-
-
-$(function () {
-  $('#aboutLink').click(function () {
-    var offsetTop = $('#about').offset().top;
-    if (offsetTop) {
-      $('html,body').animate({
-        scrollTop: offsetTop
-      }, 1000);
-      return false;
-    }
-  });
-});
 
 $(function () {
   $('#homeLink').click(function () {
@@ -191,7 +183,7 @@ function statsIncrement() {
       $(this).prop('Counter', 0).animate({
         Counter: $(this).text()
       }, {
-        duration: 500,
+        duration: 1500,
         easing: 'swing',
         step: function (now) {
           $(this).text(Math.ceil(now));

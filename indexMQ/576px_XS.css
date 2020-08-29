@@ -1,4 +1,30 @@
-@media only screen and (min-width: 390px) and (max-width: 576px) {
+@media only screen and (min-width: 360px) and (max-width: 410px) {
+    #dynamicText {
+        font-size: 9vw;
+    }
+    .nameBtn {
+        text-align: center;
+    }
+    .mySkills {
+        border-right: 0px;
+    }
+    #serviceHeadingTxt {
+        font-size: 8vw;
+    }
+    #exp {
+        padding: 2%;
+    }
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgb(42, 102, 78);
+        }
+        100% {
+            box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+        }
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 576px) {
     .myNavBar {
         background-color: rgb(42, 102, 78) !important;
     }
