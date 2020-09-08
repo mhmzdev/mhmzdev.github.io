@@ -1,448 +1,469 @@
-    .myNavBar .navbar-brand, .myNavBar .navbar-text {
-        color: white;
-        margin-left: 10%;
-        font-size: 32px;
-        font-family: 'Open Sans', sans-serif;
-    }
-
-    .navbar-brand:hover {
-        color: white !important;
-        text-decoration: underline;
-    }
-
-    nav .navbar-nav li a {
-        color: rgb(255, 255, 255) !important;
-        font-size: 18px;
-        margin-right: 1.5vw;
-    }
-
-    .navbar-light .nav-item>.nav-link.active {
-        color: white !important;
-        text-decoration: underline;
-    }
-
-    nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
-        color: white !important;
-        text-decoration: underline;
-    }
-
-    #logOutLink {
-        color: rgb(1, 87, 155) !important;
-    }
-
-    html, body {
-        height: 100%;
-        margin: 0;
-    }
-
-    .dropdown-menu {
-        position: absolute;
-        top: 100%;
-        background-color: rgb(84, 197, 248);
-    }
-
-    /* HOME SECTION */
-
-    .homeDiv {
-        height: 100%;
-        text-align: center;
-        background-repeat: no-repeat;
-        background-image: url('images/back.jpg');
-    }
-
-    .homeElements {
-        margin: 0;
-        width: 100%;
-        position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-
-    #welcomeText {
-        color: white;
-        font-weight: 100;
-    }
-
-    #dynamicText {
-        color: white;
-        margin-top: 2%;
-        font-family: 'Open Sans', sans-serif;
-    }
-
-    .txt-type>.txt {
-        border-right: 0.1rem solid white;
-    }
-
-    .myWorkBtn {
-        margin-top: 2%;
-        transition: 0.5s;
-        border-color: rgb(61, 147, 112);
-        background-color: rgb(61, 147, 112);
-    }
-
-    #btnText {
-        color: white;
-        font-size: 3vw;
-        letter-spacing: 2px;
-        font-family: 'Nunito', sans-serif;
-    }
-
-    .myWorkBtn:hover {
-        border: 1px solid rgb(255, 255, 255);
-        background-color: rgb(42, 102, 78);
-    }
-
-    /* ABOUT SECTION */
-
-    .myPicture {
-        margin-left: 5%;
-        position: absolute;
-        margin-top: 30%;
-    }
-
-    .backWaveImg {
-        position: absolute;
-        width: 100%;
-    }
-
-    .downloadBtn {
-        transition: 0.5s;
-        border-color: rgb(61, 147, 112);
-        background-color: rgb(61, 147, 112);
-    }
-
-    .downloadBtn:hover {
-        border: 1px solid rgb(255, 255, 255);
-        background-color: rgb(42, 102, 78);
-    }
-
-    #myPic {
-        width: 100%;
-        border-radius: 50%;
-        animation: pulse 2s infinite;
-    }
-
-    .picName {
-        padding-top: 8%;
-    }
-
-    #name {
-        color: white;
-        margin-top: 3%;
-        font-size: 5vw;
-        font-weight: 600;
-    }
-
-    /* ABOUT INFORMATION & SKILLS */
-
-    .aboutInformation {
-        margin-top: 3%;
-    }
-
-    #meHeading {
-        color: rgb(42, 102, 78);
-        font-weight: 800;
-        font-family: 'Nunito', sans-serif;
-    }
-
-    .aboutMe {
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-left: 2%;
-        border-left: 0.2vw solid rgb(42, 102, 78);
-    }
-
-    #aboutMeText {
-        font-size: 1.1vw;
-        color: black;
-        letter-spacing: 1px;
-        text-align: left;
-        font-family: 'Nunito', sans-serif;
-    }
-
-    .mySkills {
-        padding-top: 2%;
-        border-right: 0.2vw solid rgb(42, 102, 78);
-    }
-
-    #skillsList {
-        list-style: none;
-    }
-
-    #skill {
-        text-align: right;
-        margin-top: 3%;
-        font-family: 'Nunito', sans-serif;
-    }
-
-    #skillName {
-        text-align: right;
-    }
-
-    #skillHeading {
-        text-align: right;
-        color: rgb(42, 102, 78);
-        font-weight: 800;
-        font-family: 'Nunito', sans-serif;
-    }
-
-    .progress {
-        background-color: lightgrey;
-        height: 5px;
-    }
-
-    .progress-bar {
-        border-radius: 50px;
-        height: 10px;
-        background-color: rgb(42, 102, 78);
-    }
-
-    .ui-progressbar-value {
-        transition: width 0.5s;
-        -webkit-transition: width 0.5s;
-    }
-
-    /* SERVICES SECTION */
-
-    .servicesDiv {
-        padding: 2%;
-        margin-top: 5%;
-        background-color: rgb(169, 214, 185);
-    }
-
-    .serviceHeading {
-        margin-top: 5%;
-        padding-top: 1%;
-        text-align: center;
-        border-top: 1px solid rgb(42, 102, 78);
-        border-bottom: 1px solid rgb(42, 102, 78);
-    }
-
-    #serviceHeadingTxt {
-        font-weight: 700;
-        color: rgb(42, 102, 78);
-        font-family: 'Nunito', sans-serif;
-    }
-
-    /* OFFERS DIV */
-
-    .offers {
-        margin-top: 3%;
-    }
-
-    #offerImg {
-        height: auto;
-        width: 20%;
-    }
-
-    #offerName {
-        margin-top: 3%;
-        font-weight: 700;
-        color: rgb(42, 102, 78);
-        font-family: 'Nunito', sans-serif;
-    }
-
-    #offerDesc {
-        font-family: 'Nunito', sans-serif;
-    }
-
-    .offerType {
-        background-color: white;
-        text-align: center;
-        box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.25) !important;
-    }
-
-    /* STATS CONTAINER*/
-
-    .awin {
-        box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.25) !important;
-    }
-
-    .statsContainer {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    #exp {
-        position: absolute;
-        color: rgb(42, 102, 78);
-    }
-
-    .statsType {
-        width: fit-content;
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    #statsCounter {
-        font-size: 280%;
-        text-align: center;
-        color: rgb(42, 102, 78) !important;
-    }
-
-    #statsDescription {
-        font-size: 120%;
-        font-weight: bold;
-    }
-
-    /* TOOLS & TECH */
-
-    .toolstech {
-        margin-top: 5%;
-    }
-
-    .tools {
-        text-align: center;
-    }
-
-    .tool {
-        text-align: center;
-    }
-
-    #toolName {
-        font-size: 100%;
-        font-family: 'Nunito', sans-serif;
-    }
-
-    #ppImg {
-        height: 40%;
-        width: auto;
-    }
-
-    #ppXD {
-        height: 40%;
-        width: 40%;
-    }
-
-    #devicons {
-        font-size: 40px;
-    }
-
-    /* GITHUB REPOS */
-
-    .repos {
-        margin-top: 3%;
-    }
-
-    .repo {
-        transition: 0.5s;
-        padding: 8%;
-        text-align: center;
-        box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.25);
-    }
-
-    .appIcon {
-        height: auto;
-        width: 20%;
-        transition: 0.5s;
-    }
-
-    .appIcon:hover {
-        transform: rotate(360deg) !important;
-    }
-
-    #githubHeadingTxt {
-        font-weight: 700;
-        color: rgb(42, 102, 78);
-        font-family: 'Nunito', sans-serif;
-    }
-
-    #repoName {
-        margin-top: 10%;
-        font-weight: 900;
-        color: rgb(42, 102, 78);
-        font-family: 'Nunito', sans-serif;
-    }
-
-    #repoDesc {
-        color: rgb(42, 102, 78);
-        font-family: 'Nunito', sans-serif;
-    }
-
-    .repoLink {
-        text-decoration: none !important;
-    }
-
-    .repo:hover {
-        border-radius: 10px;
-        box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.5) !important;
-    }
-
-    /* CONTACT */
-
-    #contactIcon {
-        color: rgb(42, 102, 78);
-    }
-
-    #socialLink {
-        color: black;
-        transition: 0.5s;
-        margin-left: 5%;
-    }
-
-    #socialLink:hover {
-        color: rgb(42, 102, 78);
-        transform: scale(2, 2);
-    }
-
-    /* FOOTER */
-
-    .footerContainer {
-        background-color: rgb(65, 65, 65);
-        bottom: 0;
-        left: 0;
-        height: 13%;
-    }
-
-    #copyright {
-        color: white;
-        font-size: 100%;
-    }
-
-    .fa, .fas {
-        font-weight: 900;
-    }
-
-    .fa, .far, .fas {
-        font-family: "Font Awesome 5 Free";
-    }
-
-    .up {
-        position: absolute;
-        width: 3rem;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, 0.377);
-        top: -6rem;
-        right: 0rem;
-        border-top-left-radius: 10%;
-        border-bottom-left-radius: 10%;
-        display: flex;
-        animation: pulse2 2s infinite;
-        cursor: pointer;
-    }
-
-    .up i {
-        color: rgb(255, 255, 255);
-        font-size: 1rem;
-        margin: auto;
-    }
-
-    @keyframes pulse {
-        0% {
-            box-shadow: 0 0 0 0 white;
-            /* box-shadow: 0 0 0 0 rgba(65, 136, 132, 0.99); */
-        }
-        100% {
-            box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
-        }
-    }
-
-    @keyframes pulse2 {
-        0% {
-            box-shadow: 0 0 0 0 rgb(42, 102, 78);
-        }
-        100% {
-            box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
-        }
-    }
+@font-face {
+    font-family: 'Agustina';
+    src: url(images/font/agustina.otf);
+}
+
+.myNavBar .navbar-brand, .myNavBar .navbar-text {
+    color: white;
+    margin-left: 10%;
+    font-size: 32px;
+}
+
+#brandName {
+    font-family: 'Agustina';
+}
+
+.navbar-brand:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+
+nav .navbar-nav li a {
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+    margin-right: 1.5vw;
+}
+
+.navbar-light .nav-item>.nav-link.active {
+    color: white !important;
+    text-decoration: underline;
+}
+
+nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+
+#logOutLink {
+    color: rgb(1, 87, 155) !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    background-color: rgb(84, 197, 248);
+}
+
+/* HOME SECTION */
+
+.homeDiv {
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url('images/back.jpg');
+}
+
+.homeElements {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#welcomeText {
+    color: white;
+    font-weight: 100;
+}
+
+#dynamicText {
+    color: white;
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.txt-type>.txt {
+    border-right: 0.1rem solid white;
+}
+
+.myWorkBtn {
+    margin-top: 2%;
+    transition: 0.5s;
+    border-color: rgb(61, 147, 112);
+    background-color: rgb(61, 147, 112);
+}
+
+#btnText {
+    color: white;
+    font-size: 3vw;
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.myWorkBtn:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(42, 102, 78);
+}
+
+/* ABOUT SECTION */
+
+.myPicture {
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 30%;
+}
+
+.backWaveImg {
+    position: absolute;
+    width: 100%;
+}
+
+.downloadBtn {
+    transition: 0.5s;
+    border-color: rgb(61, 147, 112);
+    background-color: rgb(61, 147, 112);
+}
+
+.downloadBtn:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(42, 102, 78);
+}
+
+#myPic {
+    width: 100%;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+.picName {
+    padding-top: 8%;
+}
+
+#name {
+    color: white;
+    margin-top: 3%;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+/* ABOUT INFORMATION & SKILLS */
+
+.aboutInformation {
+    margin-top: 3%;
+}
+
+.signature {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#signature {
+    font-family: 'Agustina';
+    font-size: 4vw;
+}
+
+#signBrackets {
+    font-size: 3vw;
+}
+
+#meHeading {
+    color: rgb(42, 102, 78);
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+
+.aboutMe {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border-left: 0.2vw solid rgb(42, 102, 78);
+}
+
+#aboutMeText {
+    font-size: 1.1vw;
+    color: black;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+.mySkills {
+    padding-top: 3%;
+    text-align: right;
+    /* border-right: 0.2vw solid rgb(42, 102, 78); */
+}
+
+.things {
+    text-align: right;
+}
+
+#skillHeading {
+    text-align: right;
+    color: rgb(42, 102, 78);
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+
+#skillImg {
+    height: 15%;
+    padding-right: 5%;
+}
+
+.progress {
+    background-color: lightgrey;
+    height: 5px;
+}
+
+.progress-bar {
+    border-radius: 50px;
+    height: 10px;
+    background-color: rgb(42, 102, 78);
+}
+
+.ui-progressbar-value {
+    transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+}
+
+/* SERVICES SECTION */
+
+.servicesDiv {
+    height: 100%;
+    padding: 2%;
+    margin-top: 5%;
+    background-color: rgb(169, 214, 185);
+}
+
+.serviceHeading {
+    margin-top: 5%;
+    padding-top: 1%;
+    text-align: center;
+    border-top: 1px solid rgb(42, 102, 78);
+    border-bottom: 1px solid rgb(42, 102, 78);
+}
+
+#serviceHeadingTxt {
+    font-weight: 700;
+    color: rgb(42, 102, 78);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* OFFERS DIV */
+
+.offers {
+    margin-top: 3%;
+}
+
+#offerImg {
+    height: auto;
+    width: 20%;
+}
+
+#offerName {
+    margin-top: 3%;
+    font-weight: 700;
+    color: rgb(42, 102, 78);
+    font-family: 'Nunito', sans-serif;
+}
+
+#offerDesc {
+    font-family: 'Nunito', sans-serif;
+}
+
+.offerType {
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.25) !important;
+}
+
+/* STATS CONTAINER*/
+
+.awin {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.25) !important;
+}
+
+.statsContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#exp {
+    position: absolute;
+    color: rgb(42, 102, 78);
+}
+
+.statsType {
+    width: fit-content;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#statsCounter {
+    font-size: 280%;
+    text-align: center;
+    color: rgb(42, 102, 78) !important;
+}
+
+#statsDescription {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* TOOLS & TECH */
+
+.toolstech {
+    padding-top: 5%;
+}
+
+.tools {
+    text-align: center;
+}
+
+.tool {
+    text-align: center;
+}
+
+#toolName {
+    font-size: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+#ppImg {
+    height: 40%;
+    width: auto;
+}
+
+#ppXD {
+    height: 40%;
+    width: 40%;
+}
+
+#devicons {
+    font-size: 40px;
+    padding-right: 5%;
+}
+
+/* GITHUB REPOS */
+
+.repos {
+    margin-top: 3%;
+}
+
+.repo {
+    transition: 0.5s;
+    padding: 8%;
+    text-align: center;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.appIcon {
+    height: auto;
+    width: 20%;
+    transition: 0.5s;
+}
+
+.appIcon:hover {
+    transform: rotate(360deg) !important;
+}
+
+#githubHeadingTxt {
+    font-weight: 700;
+    color: rgb(42, 102, 78);
+    font-family: 'Nunito', sans-serif;
+}
+
+#repoName {
+    margin-top: 10%;
+    font-weight: 900;
+    color: rgb(42, 102, 78);
+    font-family: 'Nunito', sans-serif;
+}
+
+#repoDesc {
+    color: rgb(42, 102, 78);
+    font-family: 'Nunito', sans-serif;
+}
+
+.repoLink {
+    text-decoration: none !important;
+}
+
+.repo:hover {
+    border-radius: 10px;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+/* CONTACT */
+
+#contactIcon {
+    color: rgb(42, 102, 78);
+}
+
+#socialLink {
+    color: black;
+    transition: 0.5s;
+    margin-left: 5%;
+}
+
+#socialLink:hover {
+    color: rgb(42, 102, 78);
+    transform: scale(2, 2);
+}
+
+/* FOOTER */
+
+.footerContainer {
+    background-color: rgb(65, 65, 65);
+    bottom: 0;
+    left: 0;
+    height: 13%;
+}
+
+#copyright {
+    color: white;
+    font-size: 100%;
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.up {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.377);
+    top: -6rem;
+    right: 0rem;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    animation: pulse2 2s infinite;
+    cursor: pointer;
+}
+
+.up i {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: auto;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 white;
+        /* box-shadow: 0 0 0 0 rgba(65, 136, 132, 0.99); */
+    }
+    100% {
+        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        box-shadow: 0 0 0 0 rgb(42, 102, 78);
+    }
+    100% {
+        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+    }
+}
