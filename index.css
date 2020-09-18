@@ -225,7 +225,6 @@ html, body {
 /* SERVICES SECTION */
 
 .servicesDiv {
-    height: 100%;
     padding: 2%;
     margin-top: 5%;
     background-color: rgb(169, 214, 185);
@@ -312,7 +311,7 @@ html, body {
     padding-top: 5%;
 }
 
-.tools {
+.toolsDiv {
     text-align: center;
 }
 

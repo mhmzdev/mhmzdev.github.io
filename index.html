@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="indexMQ/1200px_XL.css">
 
 
+    <link href="github-widget/github-widget.css" rel="stylesheet" type="text/css" />
+
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -63,7 +65,8 @@
 <body>
 
     <!-- Nav Bar Code -->
-    <nav id="navBar" class="navbar navbar-expand-sm navbar-light fixed-top myNavBar">
+    <nav id="navBar" class="navbar navbar-expand-sm navbar-light fixed-top myNavBar" data-aos="fade-down"
+        data-aos-delay="200">
         <!-- Brand Name -->
         <a href="index.html" class="navbar-brand">
             < <span id="brandName">Hamza</span> />
@@ -136,8 +139,9 @@
 
                 <div class="col-1 col-sm-1 col-md-1 col-xl-1"></div>
 
-                <div class="aboutMe col-12 col-sm-12 col-md-11 col-lg-5 col-xl-5">
-                    <h1 id="meHeading" data-aos="fade-in" data-aos-delay="300">About Me</h1>
+                <div class="aboutMe col-12 col-sm-12 col-md-11 col-lg-5 col-xl-5" data-aos="fade-right"
+                    data-aos-delay="100">
+                    <h1 id="meHeading">About Me</h1>
                     <p id="aboutMeText">
                         A computer scientist to be with a dream to use the tech for betterment of this world. Founder
                         <a id="abtLink" target="_blank"
@@ -155,7 +159,7 @@
                         <br> Cheers! :)</p>
                 </div>
 
-                <div class="col-12 col-md-11 col-lg-5 col-xl-4 mySkills">
+                <div class="col-12 col-md-11 col-lg-5 col-xl-4 mySkills" data-aos="fade-left" data-aos-delay="100">
                     <div class="signature">
                         <span id="signBrackets">
                             < </span> <span id="signature">Hamza </span> <span id="signBrackets">/></span>
@@ -244,7 +248,7 @@
         </div>
     </div>
 
-    <div id="tools" class="tools">
+    <div id="tools" class="toolsDiv">
 
         <div class="container-fluid">
 
@@ -268,35 +272,35 @@
                     <img id="ppImg" src="images/services/dart.svg">
                     <p id="toolName">Dart</p>
                 </div>
-                <div class="firebaseS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                <div class="php tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
                     data-aos-delay="300">
+                    <i id="devicons" class="devicon-python-plain-wordmark colored"></i>
+                    <p id="toolName">Python</p>
+                </div>
+                <div class="firebaseS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="400">
                     <img id="ppImg" src="images/services/firebase.svg">
                     <p id="toolName">Firebase</p>
                 </div>
                 <div class="html tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
-                    data-aos-delay="400">
+                    data-aos-delay="500">
                     <i id="devicons" class="devicon-html5-plain colored"></i>
                     <p id="toolName">HTML5</p>
                 </div>
                 <div class="css tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
-                    data-aos-delay="500">
+                    data-aos-delay="600">
                     <i id="devicons" class="devicon-css3-plain colored"></i>
                     <p id="toolName">CSS</p>
                 </div>
                 <div class="bootstrap tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
-                    data-aos-delay="600">
+                    data-aos-delay="700">
                     <i id="devicons" class="devicon-bootstrap-plain colored"></i>
                     <p id="toolName">Bootstrap</p>
                 </div>
                 <div class="vscode tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
-                    data-aos-delay="700">
+                    data-aos-delay="800">
                     <i id="devicons" class="devicon-visualstudio-plain colored"></i>
                     <p id="toolName">VS Code</p>
-                </div>
-                <div class="php tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
-                    data-aos-delay="800">
-                    <i id="devicons" class="devicon-php-plain colored"></i>
-                    <p id="toolName">PHP</p>
                 </div>
                 <div class="pp tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
                     data-aos-delay="900">
@@ -321,7 +325,7 @@
                 <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
                 <div data-aos="fade-down" data-aos-delay="200"
                     class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
-                    <h1 id="githubHeadingTxt">GitHub Repositories</h1>
+                    <h1 id="githubHeadingTxt">Open Source</h1>
                 </div>
             </div>
 
