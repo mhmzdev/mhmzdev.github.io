@@ -26,6 +26,9 @@ function medium() {
 function linkedIn() {
   window.open("https://www.linkedin.com/in/m-hamzashakeel/", "_blank");
 }
+function holyQuranPlayStore() {
+  window.open("https://play.google.com/store/apps/details?id=com.hmz.al_quran&pli=1", "_blank")
+}
 
 // Animate the progress bar
 $(document).ready(function () {
