@@ -9,13 +9,13 @@ $(window).scroll(function () {
 });
 
 function fb() {
-  window.open("https://www.facebook.com/hamza.maddog", "_blank");
+  window.open("https://www.facebook.com/mhamzadev", "_blank");
 }
 function twitter() {
-  window.open("https://twitter.com/m_hamzashakeel", "_blank");
+  window.open("https://twitter.com/mhamzadev", "_blank");
 }
 function insta() {
-  window.open("https://instagram.com/m_hamzashakeel", "_blank");
+  window.open("https://instagram.com/mhamzadev", "_blank");
 }
 function github() {
   window.open("https://github.com/m-hamzashakeel", "_blank");
@@ -24,7 +24,7 @@ function medium() {
   window.open("https://medium.com/@hamza.6.shakeel", "_blank");
 }
 function linkedIn() {
-  window.open("https://www.linkedin.com/in/m-hamzashakeel/", "_blank");
+  window.open("https://www.linkedin.com/in/mhamzadev/", "_blank");
 }
 function holyQuranPlayStore() {
   window.open("https://play.google.com/store/apps/details?id=com.hmz.al_quran&pli=1", "_blank")
