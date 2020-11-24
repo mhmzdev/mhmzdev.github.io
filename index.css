@@ -3,7 +3,8 @@
     src: url(images/font/agustina.otf);
 }
 
-.myNavBar .navbar-brand, .myNavBar .navbar-text {
+.myNavBar .navbar-brand,
+.myNavBar .navbar-text {
     color: white;
     margin-left: 10%;
     font-size: 32px;
@@ -29,7 +30,8 @@ nav .navbar-nav li a {
     text-decoration: underline;
 }
 
-nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
+nav .navbar-nav li a:active,
+nav .navbar-nav li a:hover {
     color: white !important;
     text-decoration: underline;
 }
@@ -38,7 +40,8 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     color: rgb(1, 87, 155) !important;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -48,6 +51,7 @@ html, body {
     top: 100%;
     background-color: rgb(84, 197, 248);
 }
+
 
 /* HOME SECTION */
 
@@ -101,6 +105,7 @@ html, body {
     background-color: rgb(42, 102, 78);
 }
 
+
 /* ABOUT SECTION */
 
 .myPicture {
@@ -141,6 +146,7 @@ html, body {
     font-size: 5vw;
     font-weight: 600;
 }
+
 
 /* ABOUT INFORMATION & SKILLS */
 
@@ -222,6 +228,7 @@ html, body {
     -webkit-transition: width 0.5s;
 }
 
+
 /* SERVICES SECTION */
 
 .servicesDiv {
@@ -243,6 +250,7 @@ html, body {
     color: rgb(42, 102, 78);
     font-family: 'Nunito', sans-serif;
 }
+
 
 /* OFFERS DIV */
 
@@ -271,6 +279,7 @@ html, body {
     text-align: center;
     box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.25) !important;
 }
+
 
 /* STATS CONTAINER*/
 
@@ -305,6 +314,7 @@ html, body {
     font-weight: bold;
 }
 
+
 /* TOOLS & TECH */
 
 .toolstech {
@@ -338,6 +348,7 @@ html, body {
     font-size: 40px;
     padding-right: 5%;
 }
+
 
 /* GITHUB REPOS */
 
@@ -389,6 +400,7 @@ html, body {
     box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.5) !important;
 }
 
+
 /* CONTACT */
 
 #contactIcon {
@@ -406,6 +418,7 @@ html, body {
     transform: scale(2, 2);
 }
 
+
 /* FOOTER */
 
 .footerContainer {
@@ -420,11 +433,14 @@ html, body {
     font-size: 100%;
 }
 
-.fa, .fas {
+.fa,
+.fas {
     font-weight: 900;
 }
 
-.fa, .far, .fas {
+.fa,
+.far,
+.fas {
     font-family: "Font Awesome 5 Free";
 }
 

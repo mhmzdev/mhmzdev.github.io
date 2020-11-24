@@ -21,7 +21,7 @@ function github() {
   window.open("https://github.com/m-hamzashakeel", "_blank");
 }
 function medium() {
-  window.open("https://medium.com/@hamza.6.shakeel", "_blank");
+  window.open("https://medium.com/@mhamzadev", "_blank");
 }
 function linkedIn() {
   window.open("https://www.linkedin.com/in/mhamzadev/", "_blank");
