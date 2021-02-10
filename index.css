@@ -3,8 +3,7 @@
     src: url(images/font/agustina.otf);
 }
 
-.myNavBar .navbar-brand,
-.myNavBar .navbar-text {
+.myNavBar .navbar-brand, .myNavBar .navbar-text {
     color: white;
     margin-left: 10%;
     font-size: 32px;
@@ -30,8 +29,7 @@ nav .navbar-nav li a {
     text-decoration: underline;
 }
 
-nav .navbar-nav li a:active,
-nav .navbar-nav li a:hover {
+nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     color: white !important;
     text-decoration: underline;
 }
@@ -40,8 +38,7 @@ nav .navbar-nav li a:hover {
     color: rgb(1, 87, 155) !important;
 }
 
-html,
-body {
+html, body {
     height: 100%;
     margin: 0;
 }
@@ -51,7 +48,6 @@ body {
     top: 100%;
     background-color: rgb(84, 197, 248);
 }
-
 
 /* HOME SECTION */
 
@@ -105,7 +101,6 @@ body {
     background-color: rgb(42, 102, 78);
 }
 
-
 /* ABOUT SECTION */
 
 .myPicture {
@@ -146,7 +141,6 @@ body {
     font-size: 5vw;
     font-weight: 600;
 }
-
 
 /* ABOUT INFORMATION & SKILLS */
 
@@ -228,7 +222,6 @@ body {
     -webkit-transition: width 0.5s;
 }
 
-
 /* SERVICES SECTION */
 
 .servicesDiv {
@@ -250,7 +243,6 @@ body {
     color: rgb(42, 102, 78);
     font-family: 'Nunito', sans-serif;
 }
-
 
 /* OFFERS DIV */
 
@@ -279,7 +271,6 @@ body {
     text-align: center;
     box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.25) !important;
 }
-
 
 /* STATS CONTAINER*/
 
@@ -314,7 +305,6 @@ body {
     font-weight: bold;
 }
 
-
 /* TOOLS & TECH */
 
 .toolstech {
@@ -348,7 +338,6 @@ body {
     font-size: 40px;
     padding-right: 5%;
 }
-
 
 /* GITHUB REPOS */
 
@@ -400,6 +389,14 @@ body {
     box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.5) !important;
 }
 
+.seeMoreDiv {
+    text-align: center;
+    padding-top: 3.5vw;
+}
+
+#seeMoreLink {
+    color: rgb(42, 102, 78);
+}
 
 /* CONTACT */
 
@@ -436,14 +433,11 @@ body {
     font-size: 100%;
 }
 
-.fa,
-.fas {
+.fa, .fas {
     font-weight: 900;
 }
 
-.fa,
-.far,
-.fas {
+.fa, .far, .fas {
     font-family: "Font Awesome 5 Free";
 }
 
