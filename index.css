@@ -418,6 +418,9 @@ body {
     transform: scale(2, 2);
 }
 
+.emailText {
+    font-size: 1vw;
+}
 
 /* FOOTER */
 
