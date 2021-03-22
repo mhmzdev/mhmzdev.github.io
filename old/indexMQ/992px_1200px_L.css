@@ -1,0 +1,51 @@
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .footerContainer {
+        padding-top: 2.5%;
+        height: 10%;
+    }
+    #name {
+        color: white;
+        text-align: left;
+    }
+    .myWorkBtn {
+        width: 15vw;
+        height: 4vw;
+    }
+    #btnText {
+        font-size: 1.7vw;
+    }
+    #welcomeText {
+        font-size: 2vw;
+    }
+    #dynamicText {
+        font-size: 6vw;
+    }
+    #aboutMeText {
+        font-size: 1.5vw;
+    }
+    #skill {
+        font-size: 1.5vw;
+    }
+    .other {
+        margin-left: 5%;
+    }
+    #exp {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    #serviceHeadingTxt {
+        font-size: 2vw;
+    }
+    #githubHeadingTxt {
+        font-size: 2vw;
+    }
+    .repos {
+        margin-top: 5%;
+    }
+    .repo {
+        margin-top: 8%;
+    }
+    .repoLink {
+        margin-left: 12%;
+    }
+}

@@ -1,0 +1,55 @@
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .footerContainer {
+        padding-top: 2.5%;
+        height: 10%;
+    }
+    .aboutInformation {
+        text-align: center;
+    }
+    .aboutMe {
+        text-align: center;
+    }
+    #welcomeText {
+        font-size: 4vw;
+    }
+    #dynamicText {
+        font-size: 10vw;
+    }
+    .myWorkBtn {
+        width: 20vw;
+        height: 5.5vw;
+    }
+    #btnText {
+        font-size: 2.5vw;
+    }
+    #aboutMeText {
+        font-size: 2.5vw;
+        text-align: justify;
+    }
+    #skill {
+        font-size: 2.5vw;
+    }
+    .statsContainer {
+        width: 50%;
+        margin-left: 25%;        
+    }
+    #serviceHeadingTxt {
+        font-size: 4vw;
+    }
+    .offerType {
+        margin-left: 8%;
+    }
+    #exp {
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+    #githubHeadingTxt {
+        font-size: 4vw;
+    }
+    .repo {
+        margin-top: 8%;
+    }
+    .repoLink {
+        margin-left: 15%;
+    }
+}

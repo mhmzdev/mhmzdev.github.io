@@ -1,0 +1,70 @@
+@media only screen and (min-width: 1200px) {
+    .footerContainer {
+        padding-top: 2%;
+        height: 10%;
+    }
+    #blogHeading {
+        font-size: 300%;
+    }
+    .headerLinks {
+        margin-top: 1%;
+    }
+    .imgDiv {
+        margin-top: 10%;
+    }
+    #welcomeText {
+        font-size: 2vw;
+    }
+    #dynamicText {
+        font-size: 5vw;
+    }
+    .myWorkBtn {
+        width: 15vw;
+        height: 2.6vw;
+    }
+    #btnText {
+        font-size: 1.2vw;
+    }
+    #aboutMeText {
+        font-size: 1.2vw;
+        letter-spacing: 0px;
+    }
+    #skill {
+        font-size: 1.1vw;
+    }
+    #serviceHeadingTxt {
+        font-size: 1.5vw;
+    }
+    .other {
+        margin-left: 5%;
+    }
+    .mySkills {
+        margin-left: 10%;
+    }
+    #exp {
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+    #githubHeadingTxt {
+        font-size: 1.5vw;
+    }
+    .repos {
+        margin-top: 5%;
+    }
+    .repo {
+        margin-top: 8%;
+        height: 200px;
+    }
+    .repoLink {
+        margin-left: 0%;
+    }
+    .gitHeading {
+        padding-top: 3%;
+    }
+    .secRow {
+        margin-top: 2%;
+    }
+    .toolsHeading {
+        padding-top: 3%;
+    }
+}

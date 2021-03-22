@@ -1,0 +1,112 @@
+@media only screen and (min-width: 360px) and (max-width: 420px) {
+    #dynamicText {
+        font-size: 9vw;
+    }
+    .nameBtn {
+        text-align: center;
+    }
+    .mySkills {
+        border-right: 0px;
+    }
+    #serviceHeadingTxt {
+        font-size: 8vw;
+    }
+    #exp {
+        padding-top: 4%;
+        padding-left: 5%;
+    }
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgb(42, 102, 78);
+        }
+        100% {
+            box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+        }
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+    .myNavBar {
+        background-color: rgb(42, 102, 78) !important;
+    }
+    .footerContainer {
+        padding-top: 2.5%;
+        height: 10%;
+    }
+    #welcomeText {
+        font-size: 4vw;
+    }
+    #dynamicText {
+        font-size: 10vw;
+    }
+    .myWorkBtn {
+        width: 35vw;
+        height: 10vw;
+    }
+    .picName {
+        padding-top: 10%;
+    }
+    #name {
+        color: black;
+        font-size: 9.5vw;
+    }
+    #skill {
+        font-size: 3.5vw;
+    }
+    #aboutMeText {
+        font-size: 3.5vw;
+    }
+    .aboutMe {
+        border-left: 0px;
+    }
+    .backWaveImg {
+        visibility: hidden;
+    }
+    #exp {
+        margin-top: 5%;
+        margin-left: 6%;
+    }
+    #githubHeadingTxt {
+        font-size: 5vw;
+    }
+    .gitHeading {
+        margin-top: 20%;
+    }
+    .repo {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 768px) {
+    #name {
+        color: black;
+        font-size: 9.5vw;
+    }
+    .nameBtn {
+        text-align: center;
+    }
+    .aboutMe {
+        padding: 5%;
+    }
+    .mySkills {
+        border-right: 0px;
+        text-align: center;
+    }
+    #serviceHeadingTxt {
+        font-size: 8vw;
+    }
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgb(42, 102, 78);
+        }
+        100% {
+            box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+        }
+    }
+    .repos {
+        margin-top: 5%;
+    }
+    .repo {
+        margin-top: 5%;
+    }
+}

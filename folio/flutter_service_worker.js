@@ -9,7 +9,7 @@ const RESOURCES = {
 "assets/assets/dsc.png": "bd954ceeeb42b91899ebe1c3b0d79850",
 "assets/assets/flutterIsl.png": "aaaeddae163a2e71636d9d494e16f2db",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
-"assets/assets/fonts/montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
+"assets/assets/fonts/Montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
 "assets/assets/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
 "assets/assets/oldLogo.png": "7a26b2566086fe5638ca2747288bb914",
 "assets/assets/projects/android.png": "765adf924dae4d5e67bfb640bcd05c48",
@@ -33,9 +33,9 @@ const RESOURCES = {
 "favicon.png": "61b493df9635f221d909421e8769acb0",
 "icons/Icon-192.png": "002516a4b23f153b7ac2928347c377b1",
 "icons/Icon-512.png": "84780d2dfe97536ad1b68213079cc78b",
-"index.html": "d88a0c89ddab9f3a5c32b2e9258b4a52",
-"/": "d88a0c89ddab9f3a5c32b2e9258b4a52",
-"main.dart.js": "68f3cf73637854eb51c5e4cae80a7fda",
+"index.html": "7e2bc35376ce5007c164c415deda891f",
+"/": "7e2bc35376ce5007c164c415deda891f",
+"main.dart.js": "712bd2d50fe50ac26c998f627166436d",
 "manifest.json": "e1ab11f9c4ca98b5e8e74ae1ad91ec16",
 "version.json": "1cefaf2a48f42633ff4b37ffe0e9de96"
 };
