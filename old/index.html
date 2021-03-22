@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- For Mobile responsiveness -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hamza</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/siteIcon/icon.png" type="image/icon type">
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="_animation.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+    <!-- Media Query Files -->
+    <link rel="stylesheet" href="indexMQ/576px_XS.css">
+    <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
+    <link rel="stylesheet" href="indexMQ/768px_992px_M.css">
+    <link rel="stylesheet" href="indexMQ/992px_1200px_L.css">
+    <link rel="stylesheet" href="indexMQ/1200px_XL.css">
+
+
+    <link href="github-widget/github-widget.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+    <!-- Other scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+    <!-- For Scroll on Top Icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    <!-- For 'fa' font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Nav Bar Code -->
+    <nav id="navBar" class="navbar navbar-expand-sm navbar-light fixed-top myNavBar" data-aos="fade-down"
+        data-aos-delay="200">
+        <!-- Brand Name -->
+        <a href="index.html" class="navbar-brand">
+            < <span id="brandName">Hamza</span> />
+        </a>
+        <!-- Collapse Button for smaller screen size -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+            </span>
+        </button>
+        <!-- Nav Buttons on left side -->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a id="homeLink" href="#homeDiv" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a id="aboutLink" href="#about" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a id="serviceLink" href="#services" class="nav-link">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a id="toolsLink" href="#tools" class="nav-link">TOOLS & TECH</a>
+                </li>
+                <li class="nav-item">
+                    <a id="githubLink" href="#github" class="nav-link">OPEN SOURCE</a>
+                </li>
+                <li class="nav-item">
+                    <a id="contactLink" href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="homeDiv" class="homeDiv">
+        <div class="homeElements container-fluid">
+            <h3 id="welcomeText">WELCOME TO MY PORTFOLIO</h3>
+            <h1 id="dynamicText">
+                <span class="txt-type" data-wait=1000ms
+                    data-words='["Flutter Developer", "UI Enthusiast", "Technical Writer"]'></span>
+            </h1>
+            <a href="#github" class="btn btn-primary myWorkBtn"><span id="btnText">My Work</span></a>
+        </div>
+    </div>
+
+    <div id="about" class="aboutDiv">
+
+        <div id="wave" class="backWaveImg" data-aos="fade-up" data-aos-delay="100">
+            <img id="imgWave" src="images/greenBack.png" width="100%">
+        </div>
+
+        <div class="container-fluid picName">
+            <div class="row">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+                <div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 picDiv">
+                    <img id="myPic" src="images/about/myPic.png" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-lg-5 col-xl-5 nameBtn">
+                    <h1 class="name" id="name">Muhammad Hamza</h1>
+                    <a href="images/about/hamza_resume.pdf" download="hamza_resume.pdf"
+                        class="btn btn-primary downloadBtn">Download
+                        Resume <i class="fa fa-download" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid aboutInformation">
+            <div class="row">
+
+                <div class="col-1 col-sm-1 col-md-1 col-xl-1"></div>
+
+                <div class="aboutMe col-12 col-sm-12 col-md-11 col-lg-5 col-xl-5" data-aos="fade-right"
+                    data-aos-delay="100">
+                    <h1 id="meHeading">About Me</h1>
+                    <p id="aboutMeText">
+                        A computer scientist with a dream of using the tech for betterment of this world. Founder
+                        <a id="abtLink" target="_blank"
+                            href="https://wwww.facebook.com/FlutterIslamabadPakistan/">Flutter
+                            Islamabad,
+                            Pakistan</a>, a Self-taught flutter developer also into writing
+                        technical blogs on <a id="abtLink" target="_blank"
+                            href="https://mhamzadev.medium.com">Medium</a> and
+                        open
+                        source contributor at <a id="abtLink" target="_blank"
+                            href="https://github.com/m-hamzashakeel">GitHub</a>. Keen Interest in learning
+                        technologies like Machine Learning (ML) and Augmented Reality (AR) and to use them
+                        in building awesome applications. <br>
+
+                    <p>Cheers :)</p>
+                </div>
+
+                <div class="col-12 col-md-11 col-lg-5 col-xl-4 mySkills" data-aos="fade-left" data-aos-delay="100">
+                    <div class="signature">
+                        <span id="signBrackets">
+                            < </span> <span id="signature">Hamza </span> <span id="signBrackets">/></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="services" class="servicesDiv">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="serviceHeadingTxt">What I Do</h1>
+                </div>
+            </div>
+
+            <div class="row offers">
+
+                <div data-aos="fade-down" data-aos-delay="350"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 other offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/offerings/appDev2.svg">
+                    <h5 id="offerName">Full App Development</h5>
+                    <p id="offerDesc">For now, I can only develop Android Apps using Flutter, that's because I don't
+                        own a MacBook right now so can't test or debug apps for iOS.
+                        Hopefully this missing piece will be filled soon :)</p>
+                </div>
+
+                <div class="col-lg-1"></div>
+
+                <div data-aos="fade-down" data-aos-delay="550"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/offerings/ui2.svg">
+                    <h5 id="offerName">UI/UX Designing</h5>
+                    <p id="offerDesc">Although I'm mainly a flutter developer but I do care about the UI/UX for my
+                        client. Hence, I also
+                        do UI designing for applications.
+                        So, feel free to ask me for getting you UI/UX for your apps</p>
+                </div>
+
+                <div class="col-lg-1"></div>
+
+                <div data-aos="fade-down" data-aos-delay="750"
+                    class="col-sm-10 col-md-10 col-lg-3 col-xl-3 offerType shadow p-3 mb-5 bg-white rounded">
+                    <img id="offerImg" src="images/offerings/appDev.svg">
+                    <h5 id="offerName">Rapid Prototyping</h5>
+                    <p id="offerDesc">Having a startup idea? Or maybe just want a prototype for your clients? With
+                        Flutter I can get you basic version of your app in no time and you are good to go for your
+                        project in future.</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-1 col-xl-1"></div>
+
+                <div data-aos="fade-in" data-aos-delay="200"
+                    class="col-12 col-sm-10 col-md-10 col-lg-12 col-xl-10 awin shadow p-3 mb-5 bg-white rounded">
+                    <div class="row statsContainer">
+                        <div data-aos="fade-in" data-aos-delay="100" class="statsType col-12 col-lg-3 col-xl-3">
+                            <h3 class="value" id="statsCounter">28</h3>
+                            <p id="statsDescription">Open Source Project</p>
+                        </div>
+                        <div data-aos="fade-in" data-aos-delay="100" class="statsType col-12 col-lg-3 col-lg-3">
+                            <h3 class="value" id="statsCounter">11</h3>
+                            <p id="statsDescription">Technical Post</p>
+                        </div>
+                        <div data-aos="fade-in" data-aos-delay="100" class="statsType col-12 col-lg-3 col-lg-3">
+                            <h3 class="value" id="statsCounter">2</h3>
+                            <p id="statsDescription">Real World App</p>
+                        </div>
+                        <div data-aos="fade-in" data-aos-delay="100" class="statsType col-12 col-lg-3 col-lg-3">
+                            <span id="exp">Year</span>
+                            <h3 class="value" id="statsCounter">1</h3>
+                            <p id="statsDescription">Flutter Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tools" class="toolsDiv">
+
+        <div class="container-fluid">
+
+            <div class="row toolsHeading">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="githubHeadingTxt">Tools & Tech</h1>
+                </div>
+            </div>
+
+            <div class="row toolstech">
+                <div class="col-xl-1"></div>
+                <div class="flutterS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="100">
+                    <img id="ppImg" src="images/services/flutter.svg">
+                    <p id="toolName">Flutter</p>
+                </div>
+                <div class="dartS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="200">
+                    <img id="ppImg" src="images/services/dart.svg">
+                    <p id="toolName">Dart</p>
+                </div>
+                <div class="php tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="300">
+                    <i id="devicons" class="devicon-python-plain-wordmark colored"></i>
+                    <p id="toolName">Python</p>
+                </div>
+                <div class="firebaseS tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="400">
+                    <img id="ppImg" src="images/services/firebase.svg">
+                    <p id="toolName">Firebase</p>
+                </div>
+                <div class="html tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="500">
+                    <i id="devicons" class="devicon-html5-plain colored"></i>
+                    <p id="toolName">HTML5</p>
+                </div>
+                <div class="css tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="600">
+                    <i id="devicons" class="devicon-css3-plain colored"></i>
+                    <p id="toolName">CSS</p>
+                </div>
+                <div class="bootstrap tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="700">
+                    <i id="devicons" class="devicon-bootstrap-plain colored"></i>
+                    <p id="toolName">Bootstrap</p>
+                </div>
+                <div class="vscode tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="800">
+                    <i id="devicons" class="devicon-visualstudio-plain colored"></i>
+                    <p id="toolName">VS Code</p>
+                </div>
+                <div class="pp tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="900">
+                    <img id="ppXD" src="images/services/pp.svg">
+                    <p id="toolName">Premier Pro</p>
+                </div>
+                <div class="xd tool col-4 col-sm-4 col-md-4 col-lg-3 col-xl-1" data-aos="fade-down"
+                    data-aos-delay="1000">
+                    <img id="ppXD" src="images/services/xd.svg">
+                    <p id="toolName">Adobe XD</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="github" class="githubRepos">
+
+        <div class="container-fluid ">
+
+            <div class="row gitHeading">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="githubHeadingTxt">Open Source</h1>
+                </div>
+            </div>
+
+            <div class="row repos">
+
+                <div class="col-xl-1"></div>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="400"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2"
+                    href="https://github.com/m-hamzashakeel/MedKit-Pharmacy-App-Using-Flutter">
+                    <div class="repo">
+                        <img class="appIcon" src="images/appIcons/medkit.png" alt="">
+                        <h5 id="repoName">Medkit</h5>
+                        <p id="repoDesc">Flutter app for Pharmacy</p>
+                    </div>
+                </a>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="600"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
+                    href="https://github.com/m-hamzashakeel/Here_I_Am-Alert_App">
+                    <div class="repo">
+                        <img class="appIcon" src="images/appIcons/person.png" alt="">
+                        <h5 id="repoName">Here I Am</h5>
+                        <p id="repoDesc">An Alert app in Flutter</p>
+                    </div>
+                </a>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="800"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
+                    href="https://github.com/m-hamzashakeel/The_Holy_Quran_App">
+                    <div class="repo">
+                        <img class="appIcon" src="images/appIcons/quran.png" alt="">
+                        <h5 id="repoName">The Holy Qur'an</h5>
+                        <p id="repoDesc">Quran App in Flutter</p>
+                        <i id="socialLink" onclick="holyQuranPlayStore()" class="fab fa-google-play"></i>
+                    </div>
+                </a>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="1000"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
+                    href="https://github.com/m-hamzashakeel/Covid19-Tracker-App">
+                    <div class="repo">
+                        <img class="appIcon" src="images/appIcons/covid.png" alt="">
+                        <h5 id="repoName">COVID-19</h5>
+                        <p id="repoDesc">Tracker app in Flutter</p>
+                    </div>
+                </a>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="1200"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
+                    href="https://github.com/m-hamzashakeel/NavigationRail_widget">
+                    <div class="repo">
+                        <img class="appIcon" src="images/services/flutter.svg" alt="">
+                        <h5 id="repoName">Navigation Rail</h5>
+                        <p id="repoDesc">Widget in Flutter</p>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="row repos secRow">
+
+                <div class="col-xl-3"></div>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="400"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2"
+                    href="https://github.com/m-hamzashakeel/FTP_GUI_Java">
+                    <div class="repo">
+                        <img class="appIcon" src="images/svg/java.svg" alt="">
+                        <h5 id="repoName">File Transfer Protocol</h5>
+                        <p id="repoDesc">FTP in Java GUI Based</p>
+                    </div>
+                </a>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="600"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
+                    href="https://github.com/m-hamzashakeel/My-Order-Resturant-Ordering-System">
+                    <div class="repo">
+                        <i style="color: green;" class="appIcon fa fa-android fa-2x" aria-hidden="true"></i>
+                        <h5 id="repoName">My Order</h5>
+                        <p id="repoDesc">Restaurant Ordering App in Android</p>
+                    </div>
+                </a>
+
+                <a target="_blank" data-aos="fade-down" data-aos-delay="800"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2 "
+                    href="https://github.com/m-hamzashakeel/Hidev_Web">
+                    <div class="repo">
+                        <i style="color: black;" class="appIcon fa fa-code fa-2x" aria-hidden="true"></i>
+                        <h5 id="repoName">Hidev</h5>
+                        <p id="repoDesc">Personal Blog Concept</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12 seeMoreDiv">
+                    <a data-aos="fade-down" data-aos-delay="800" id="seeMoreLink" target="_blank" href="https://github.com/m-hamzashakeel?tab=repositories">See More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contact" class="contactDiv">
+        <div class="container-fluid">
+
+            <div class="row contactHeading">
+                <div class="col-3 col-sm-4 col-md-4 col-lg-5 col-xl-5"></div>
+                <div data-aos="fade-down" data-aos-delay="200"
+                    class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 serviceHeading">
+                    <h1 id="githubHeadingTxt">Contact</h1>
+                </div>
+            </div>
+
+            <div class="row repos">
+
+                <div class="col-xl-2"></div>
+
+                <a data-aos="fade-down" data-aos-delay="800"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2">
+                    <div class="repo contactType">
+                        <i id="contactIcon" class="fa fa-home fa-4x" aria-hidden="true"></i>
+                        <h5 id="repoName">Location</h5>
+                        <p id="repoDesc">Islamabad, Pakistan</p>
+                    </div>
+                </a>
+
+                <a data-aos="fade-down" data-aos-delay="900"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2">
+                    <div class="repo contactType">
+                        <i id="contactIcon" class="fa fa-phone fa-4x" aria-hidden="true"></i>
+                        <h5 id="repoName">Phone</h5>
+                        <p id="repoDesc">(+92) 346 0159889</p>
+                    </div>
+                </a>
+
+                <a data-aos="fade-down" data-aos-delay="1000"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2">
+                    <div class="repo contactType">
+                        <i id="contactIcon" class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+                        <h5 id="repoName">Email</h5>
+                        <p class="emailText" id="repoDesc">hamza.6.shakeel@gmail.com</p>
+                    </div>
+                </a>
+
+                <a data-aos="fade-down" data-aos-delay="1100"
+                    class="repoLink col-12 col-sm-8 col-md-8 col-lg-4 col-xl-2">
+                    <div class="repo contactType">
+                        <i id="contactIcon" class="fa fa-gg fa-4x" aria-hidden="true"></i>
+                        <h5 id="repoName">Social Media</h5>
+                        <i onclick="fb();" id="socialLink" class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i onclick="twitter();" id="socialLink" class="fa fa-twitter" aria-hidden="true"></i>
+                        <i onclick="insta();" id="socialLink" class="fa fa-instagram" aria-hidden="true"></i>
+                        <i onclick="github();" id="socialLink" class="fa fa-github" aria-hidden="true"></i>
+                        <i onclick="medium();" id="socialLink" class="fa fa-medium" aria-hidden="true"></i>
+                        <i onclick="linkedIn();" id="socialLink" class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+    <!-- Footer -->
+    <footer class="container-fluid footerContainer">
+        <div class="row">
+
+            <div class="copyrightDiv col-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center;">
+                <p id="copyright">&copy;All Right Reservered by Muhammad Hamza</p>
+                <div id="up" class="up">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts for animations & Scroll on top to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

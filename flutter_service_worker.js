@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "446816593a0bb2ce637194f33bd76ea3",
+  "assets/AssetManifest.json": "2a26494bae1a7634fe58df374b8fecca",
 "assets/assets/1.png": "29dff0cb488c762c890e665760ba7c1f",
 "assets/assets/cui.png": "b5608c4d79345ca955f990a24a454554",
 "assets/assets/dsc.png": "bd954ceeeb42b91899ebe1c3b0d79850",
@@ -12,6 +12,7 @@ const RESOURCES = {
 "assets/assets/fonts/Montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
 "assets/assets/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
 "assets/assets/oldLogo.png": "7a26b2566086fe5638ca2747288bb914",
+"assets/assets/projects/android.png": "765adf924dae4d5e67bfb640bcd05c48",
 "assets/assets/projects/covid.png": "27c600501d335324e8fce4c5d6c22b76",
 "assets/assets/projects/earbender.png": "64099d76f6c7df0fac39c222293fd473",
 "assets/assets/projects/flutter.png": "0b5a2f8d3f4d173805affaf9f84f6c87",
@@ -32,9 +33,9 @@ const RESOURCES = {
 "favicon.png": "61b493df9635f221d909421e8769acb0",
 "icons/Icon-192.png": "002516a4b23f153b7ac2928347c377b1",
 "icons/Icon-512.png": "84780d2dfe97536ad1b68213079cc78b",
-"index.html": "df3cfc7e9a08df43245ec9e46f0841ed",
-"/": "df3cfc7e9a08df43245ec9e46f0841ed",
-"main.dart.js": "e528796e0b86d581f4470eaa7c391495",
+"index.html": "a38fd1868b3294ac3a810c3eb205aaa4",
+"/": "a38fd1868b3294ac3a810c3eb205aaa4",
+"main.dart.js": "75fc06f309a209b5b374c1e9d7db0eb6",
 "manifest.json": "e1ab11f9c4ca98b5e8e74ae1ad91ec16",
 "version.json": "1cefaf2a48f42633ff4b37ffe0e9de96"
 };
