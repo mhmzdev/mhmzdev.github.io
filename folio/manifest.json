@@ -1,11 +1,11 @@
 {
-    "name": "folio",
-    "short_name": "folio",
+    "name": "Hamza",
+    "short_name": "Hamza",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
+    "background_color": "#000000",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Live portfolio using flutter 2.0",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
