@@ -1,0 +1,88 @@
+#chip {
+    background-color: var(--primary-green);
+    width: 10em;
+    height: 2em;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tag-title {
+    background-color: transparent;
+}
+
+.name {
+    color: white;
+}
+
+#first-name {
+    letter-spacing: 7px;
+    font-weight: 200;
+}
+
+#last-name {
+    font-weight: bold;
+}
+
+.social-icon-row {
+    width: 100%;
+}
+
+.social-icon-wrapper {
+    float: left;
+    margin-left: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: min-content;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: var(--bg-dark);
+}
+
+.social-icon {
+    background-color: transparent;
+    color: var(--primary-green);
+}
+
+.chat {
+    width: 100%;
+}
+
+#chat-btn {
+    color: var(--primary-green);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.stats-row {
+    padding-top: 10px;
+}
+
+.stats-container {
+    padding-left: 5%;
+    padding-top: 23%;
+}
+
+.stats {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.stats-label {
+    color: var(--text-light);
+    letter-spacing: 1px;
+}
+
+.profile-picture {
+    width: 100%;
+}
+
+.dp {
+    background-color: transparent;
+}
