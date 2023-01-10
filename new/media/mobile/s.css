@@ -18,32 +18,74 @@
         padding-top: 2%;
     }
 
-    .social-icons-row {
+
+    .tag {
+        padding-top: 2%;
+        padding-left: 4%;
+        display: flex;
+    }
+
+    #tag {
+        color: white;
+        padding-left: 1%;
+    }
+
+    .trianlge-right {
+        margin-top: 3px;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-left: 15px solid var(--primary-green);
+        border-bottom: 8px solid transparent;
+    }
+
+
+    .flexbox-container {
         padding-top: 5%;
     }
 
     .social-icon-wrapper {
-        padding-left: 4%;
+        width: 42px;
+        height: 42px;
     }
 
     .chat {
-        padding-top: 20%;
-        padding-left: 5%;
+        padding-top: 7%;
     }
 
-    .stats-container {
-        padding-top: 10%;
+    #chat-btn {
+        padding: 4%;
+    }
+
+
+    .stats {
+        display: flex;
+        background-color: transparent;
+    }
+
+    .stats-div {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 25%;
+    }
+
+    .stats-data {
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .stats-label-column {
+        width: 150px;
+        padding-left: 3%;
     }
 
     .profile-picture {
-        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 110%;
+        padding-top: 25%;
     }
 
-    .dp {
-        right: 0px;
-        position: absolute;
-        bottom: 10%;
-        float: right;
-        height: 350px;
-    }
 }
