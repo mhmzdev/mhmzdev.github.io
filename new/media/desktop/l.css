@@ -87,13 +87,22 @@
         padding-top: 5%;
     }
 
+    .grad-circle {
+        height: 500px;
+        width: 500px;
+        right: 0;
+    }
+
     .profile-picture {
         width: fit-content;
         text-align: right;
-        height: 400px;
         position: absolute;
         right: 0;
-        bottom: 5%;
+        bottom: 0;
         float: right;
+    }
+
+    .dp {
+        height: 750px;
     }
 }
