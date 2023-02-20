@@ -37,14 +37,6 @@
         border-bottom: 8px solid transparent;
     }
 
-
-    .social-icon-wrapper {
-        padding-left: 1.2%;
-        padding-right: 1.2%;
-        height: 38px;
-        margin-left: 1.5%;
-    }
-
     .dash {
         margin-left: 10%;
         background-color: rgb(148, 148, 148);
@@ -63,7 +55,7 @@
     .stats-div {
         position: absolute;
         padding-left: 5%;
-        bottom: 3%;
+        bottom: 10%;
     }
 
     .stats {
@@ -88,21 +80,37 @@
     }
 
     .grad-circle {
+        top: 25%;
         height: 500px;
         width: 500px;
         right: 0;
     }
 
     .profile-picture {
-        width: fit-content;
-        text-align: right;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        float: right;
+        right: 5.5%;
     }
 
     .dp {
-        height: 750px;
+        height: 450px;
+    }
+
+    .about {
+        padding-top: 10%;
+    }
+
+
+    .space {
+        padding-top: 25%;
+    }
+
+    .projects {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    
+    .cw-stats-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 }

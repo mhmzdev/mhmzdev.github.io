@@ -9,7 +9,8 @@
         padding-left: 10%;
     }
 
-    #first-name, #last-name {
+    #first-name,
+    #last-name {
         font-size: 42px;
     }
 
@@ -33,14 +34,6 @@
         border-bottom: 8px solid transparent;
     }
 
-
-    .social-icon-wrapper {
-        padding-left: 1.2%;
-        padding-right: 1.2%;
-        height: 38px;
-        margin-left: 1.5%;
-    }
-
     .dash {
         margin-left: 10%;
         background-color: rgb(148, 148, 148);
@@ -59,7 +52,7 @@
     .stats-div {
         position: absolute;
         padding-left: 7%;
-        bottom: 3%;
+        bottom: 5%;
     }
 
     .stats {
@@ -84,20 +77,80 @@
     }
 
     .grad-circle {
-        visibility: hidden;
+        top: 25%;
+        right: 1%;
+        height: 450px;
+        width: 450px;
+        position: absolute;
     }
 
     .profile-picture {
-        width: fit-content;
-        text-align: right;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        float: right;
-        background-color: transparent;
+        right: 5%;
     }
 
     .dp {
-        height: 700px;
+        height: 450px;
+    }
+
+    .space {
+        padding-top: 330px;
+    }
+
+    .about {
+        padding-top: 10%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    #about-me-heading,
+    #about-quote,
+    #about-me-text {
+        text-align: center;
+        width: 500px;
+    }
+
+    .download-resume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+
+    #stack-illustration {
+        height: 350px;
+    }
+
+
+    .projects {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .community-card {
+        width: 450px;
+    }
+
+    .cw-number {
+        font-size: 20px;
+    }
+
+    .cw-stats-row {
+        flex-wrap: nowrap;
+    }
+
+    .cw-stats-text {
+        font-size: 10px;
+    }
+
+    .communitites {
+        margin-left: 0%;
+    }
+
+    .cw-info {
+        width: 43%;
     }
 }

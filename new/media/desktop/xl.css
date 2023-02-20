@@ -31,7 +31,7 @@
 
     #tag {
         color: white;
-        padding-left: 1%;
+        padding-left: 0.5%;
     }
 
     .trianlge-right {
@@ -41,14 +41,6 @@
         border-top: 8px solid transparent;
         border-left: 15px solid var(--primary-green);
         border-bottom: 8px solid transparent;
-    }
-
-
-    .social-icon-wrapper {
-        padding-left: 0.75%;
-        padding-right: 0.75%;
-        height: 38px;
-        margin-left: 1.5%;
     }
 
     .dash {
@@ -98,16 +90,16 @@
         padding-top: 5%;
     }
 
-    .profile-picture {
-        width: fit-content;
-        text-align: right;
-        position: absolute;
-        right: 7%;
-        bottom: 0;
-        float: right;
+    .dp {
+        height: 550px;
     }
 
-    .dp {
-        height: 750px;
+    .space {
+        padding-top: 18%;
+    }
+
+    .projects {
+        padding-left: 8%;
+        padding-right: 8%;
     }
 }

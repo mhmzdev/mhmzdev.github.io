@@ -44,9 +44,9 @@
         padding-top: 5%;
     }
 
+
     .social-icon-wrapper {
-        width: 42px;
-        height: 42px;
+        padding: 2%;
     }
 
     .chat {
@@ -68,12 +68,13 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 25%;
+        padding-top: 5%;
     }
 
     .stats-data {
         display: flex;
-        margin-left: 5%;
+        margin-left: 8%;
+        padding-top: 5%;
     }
 
     .stats-label-column {
@@ -82,10 +83,76 @@
     }
 
     .profile-picture {
-        display: flex;
-        justify-content: flex-end;
-        padding-left: 110%;
-        height: 500px;
+        right: -10%;
     }
 
+    .dp {
+        height: 400px;
+    }
+
+    .space {
+        padding-top: 0px;
+    }
+
+    .about {
+        padding-top: 10%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #about-img {
+        width: 90%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    #about-me-heading,
+    #about-quote,
+    #about-me-text {
+        text-align: center;
+        width: 90%;
+    }
+
+    .download-resume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+
+    .tech-stack {
+        flex-direction: column;
+    }
+
+    #stack-illustration {
+        height: 300px;
+    }
+
+    .exp-card {
+        width: 95%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        flex-direction: column;
+    }
+
+    .exp-detail {
+        padding: 0;
+        width: 100%
+    }
+
+    .community-div {
+        flex-direction: column-reverse;
+    }
+
+    .cw-info {
+        width: 100%;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .cw-stats-div {
+        max-width: 100%;
+    }
 }

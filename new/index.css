@@ -1,84 +1,63 @@
-#chip {
-    background-color: var(--primary-green);
-    width: 10em;
-    height: 2em;
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+#app-navbar {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 6%;
 }
 
-.tag-title {
-    background-color: transparent;
+#navbar-icon {
+    border-color: transparent;
 }
 
-.name {
-    color: white;
+.navbar-action {
+    width: 8vw;
 }
 
-#first-name {
-    letter-spacing: 7px;
-    font-weight: 200;
+.navbar-dark .nav-item>.nav-link.active {
+    background-color: transparent !important;
+    color: var(--primary-green) !important;
 }
 
-#last-name {
-    font-weight: bold;
+nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
+    color: var(--primary-green) !important;
+    transition: .5s;
 }
 
-.flexbox-container {
-    display: flex;
-    align-items: center;
-}
-
-.social-icon-wrapper {
-    margin-left: 3%;
-    padding-left: 4%;
-    padding-right: 4%;
-    font-size: 18px;
-    border-radius: 50%;
+.up {
+    position: fixed;
+    right: 0%;
+    bottom: 2%;
     background-color: var(--bg-dark);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px;
+    padding-left: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    animation: pulse2 2s infinite;
+    cursor: pointer;
 }
 
-.social-icon {
+#up-icon {
     background-color: transparent;
-    color: var(--primary-green);
-}
-
-.chat {
-    width: 100%;
-}
-
-#chat-btn {
-    color: var(--primary-green);
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-.value {
     color: white;
-    font-size: 24px;
-    font-weight: 400;
-    background-color: transparent;
 }
 
-.stats-label-column {
-    background-color: transparent;
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 white;
+    }
+
+    100% {
+        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+    }
 }
 
-.stats-label {
-    color: var(--text-light);
-    letter-spacing: 1px;
-    background-color: transparent;
-}
+@keyframes pulse2 {
+    0% {
+        box-shadow: 0 0 0 0 var(--primary-green);
+    }
 
-.image-bg-div {
-    overflow: hidden;
-
+    100% {
+        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+    }
 }
 
 .grad-circle {
@@ -86,9 +65,11 @@
     width: 650px;
     background-image: linear-gradient(var(--bg-dark), var(--bg));
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 2%;
     border-radius: 360px;
+    animation: beat 2s;
+    transform-origin: center;
 }
 
 #mini-circle {
@@ -97,9 +78,14 @@
     top: 8%;
 }
 
-.profile-picture,
-.dp {
-    background-color: transparent;
+@keyframes beat {
+    from {
+        transform: scale(0.0);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 .circle {
@@ -108,6 +94,8 @@
     background-color: var(--primary-green);
     border-radius: 360px;
     position: absolute;
+    animation: beat 2s;
+    transform-origin: center;
 }
 
 #circle-1 {
@@ -116,5 +104,23 @@
 }
 
 #circle-2 {
-    right: 40%;
+    top: 60%;
+    right: 30%;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-dark);
+    height: 60px;
+}
+
+.foot-text {
+    color: white
+}
+
+.foot-name {
+    margin-left: 5px;
+    color: var(--primary-green);
 }
