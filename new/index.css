@@ -9,23 +9,24 @@
 }
 
 .navbar-action {
-    width: 8vw;
+    width: 10vw;
 }
 
 .navbar-dark .nav-item>.nav-link.active {
     background-color: transparent !important;
-    color: var(--primary-green) !important;
+    color: white !important;
 }
 
-nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
-    color: var(--primary-green) !important;
+nav .navbar-nav li a:active,
+nav .navbar-nav li a:hover {
+    color: white !important;
     transition: .5s;
 }
 
 .up {
     position: fixed;
     right: 0%;
-    bottom: 2%;
+    bottom: 8%;
     background-color: var(--bg-dark);
     padding: 15px;
     padding-left: 20px;
@@ -35,20 +36,19 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     cursor: pointer;
 }
 
+.show {
+    opacity:  1;;
+}
+
+.hide {
+    opacity: 0;
+}
+
 #up-icon {
     background-color: transparent;
     color: white;
 }
 
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 white;
-    }
-
-    100% {
-        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
-    }
-}
 
 @keyframes pulse2 {
     0% {
@@ -72,6 +72,7 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     transform-origin: center;
 }
 
+
 #mini-circle {
     height: 100px;
     width: 100px;
@@ -94,18 +95,31 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     background-color: var(--primary-green);
     border-radius: 360px;
     position: absolute;
-    animation: beat 2s;
     transform-origin: center;
 }
 
 #circle-1 {
+    animation: MoveUpDown 3s linear infinite;
     margin-top: 2%;
     right: 6%;
 }
 
 #circle-2 {
+    animation: MoveUpDown 3s linear infinite;
     top: 60%;
     right: 30%;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        top: 60%;
+    }
+
+    50% {
+        top: 58%;
+    }
 }
 
 .foot {
