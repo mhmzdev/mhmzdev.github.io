@@ -1,7 +1,7 @@
 ## Deployed Samples
 
 ### My first portfolio
---> https://mhmzdev.gihub.io/old
+--> https://mhmzdev.github.io/old
 
 ### Devfolio - Flutter Cross platform portfolio
 --> https://mhmzdev.github.com/devfolio
