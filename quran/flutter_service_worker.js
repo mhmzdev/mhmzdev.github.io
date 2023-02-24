@@ -4,10 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "6ef13818042a4a27e2b752c299fb9115",
-"index.html": "51263fc0cc61e4140c4ca7b583e1b8f1",
-"/": "51263fc0cc61e4140c4ca7b583e1b8f1",
+"index.html": "3f7dfa1dcc0c918c4d7d72e361b370e2",
+"/": "3f7dfa1dcc0c918c4d7d72e361b370e2",
 "main.dart.js": "e14602e3a3eec17e35db48a90d99cbc8",
-"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -37,11 +36,7 @@ const RESOURCES = {
 "assets/assets/images/quranRail.png": "df94df10063d6c727d7365f8e77243c8",
 "assets/assets/logos/grad_logo.png": "4696b373666480e07f04a5f4526cb319",
 "assets/assets/logos/app_icon.png": "8889b99a74e0510682b73a60cf28251c",
-"assets/assets/logos/logo.png": "a27b59b6e8d4b70bd352a05e787dd41f",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
-"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
-"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
+"assets/assets/logos/logo.png": "a27b59b6e8d4b70bd352a05e787dd41f"
 };
 
 // The application shell files that are downloaded before a service worker can
