@@ -3,26 +3,26 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "6ef13818042a4a27e2b752c299fb9115",
-"index.html": "3f7dfa1dcc0c918c4d7d72e361b370e2",
-"/": "3f7dfa1dcc0c918c4d7d72e361b370e2",
-"main.dart.js": "e14602e3a3eec17e35db48a90d99cbc8",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
-"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+  "version.json": "06b2546a86286bf665b20f0b097cadc3",
+"index.html": "03ce6868ae4966f85ce1395ea501d5fd",
+"/": "03ce6868ae4966f85ce1395ea501d5fd",
+"main.dart.js": "8ef81885d8f47f057a263402eb401f0c",
+"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+"favicon.png": "44ba0ca7c1cb57438ea224da726a749c",
+"icons/Icon-192.png": "86a90561632b0f8bbeb0bf0629a3c073",
+"icons/Icon-512.png": "a5be0ddd73814ff82306319649d2b56f",
 "manifest.json": "114d8f7c4fc5b02dbb2a82f731b04cde",
-"assets/AssetManifest.json": "5a788eda09f19a45dd67a3bd1ba8bd17",
-"assets/NOTICES": "0c992580a78ffa5f9f2b335a789a0cdd",
-"assets/FontManifest.json": "2af764ef1e140f364826fb174c91f366",
+"assets/AssetManifest.json": "f2966bf22b0f03cf3814fe7b41d47b39",
+"assets/NOTICES": "e628bb1accd07292dfdcbda1e97945a8",
+"assets/logo.png": "a27b59b6e8d4b70bd352a05e787dd41f",
+"assets/FontManifest.json": "b38b4ab62131d8aed67d3ba55a43b443",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/shaders/ink_sparkle.frag": "acda0ffb6f9e2e10755d6cc1e948938d",
+"assets/packages/iconsax/lib/assets/fonts/iconsax.ttf": "071d77779414a409552e0584dcbfd03d",
 "assets/fonts/Poppins-Light.ttf": "f6ea751e936ade6edcd03a26b8153b4a",
 "assets/fonts/Poppins-Medium.ttf": "f61a4eb27371b7453bf5b12ab3648b9e",
 "assets/fonts/noor-regular.ttf": "2456bbd96120790be10d0a0c1af1392d",
 "assets/fonts/Poppins-Regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/fonts/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
 "assets/fonts/ShareIcon.ttf": "5c1e174e6acdf32f2cd099ee339af0ba",
 "assets/fonts/Poppins-SemiBold.ttf": "4cdacb8f89d588d69e8570edcbe49507",
@@ -36,7 +36,11 @@ const RESOURCES = {
 "assets/assets/images/quranRail.png": "df94df10063d6c727d7365f8e77243c8",
 "assets/assets/logos/grad_logo.png": "4696b373666480e07f04a5f4526cb319",
 "assets/assets/logos/app_icon.png": "8889b99a74e0510682b73a60cf28251c",
-"assets/assets/logos/logo.png": "a27b59b6e8d4b70bd352a05e787dd41f"
+"assets/assets/logos/logo.png": "a27b59b6e8d4b70bd352a05e787dd41f",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
