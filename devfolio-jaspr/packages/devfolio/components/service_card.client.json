@@ -1,0 +1,1 @@
+{"name":"ServiceCard","id":"components/service_card","import":"package:devfolio/components/service_card.dart","params":[{"name":"icon","isNamed":true,"decoder":"p.get('icon')","encoder":"c.icon"},{"name":"label","isNamed":true,"decoder":"p.get('label')","encoder":"c.label"}]}

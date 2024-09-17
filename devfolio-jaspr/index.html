@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Montserrat);
+      html, body {
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+      }
+      h1 {
+        font-size: 4rem;
+        margin: unset;
+      }
+      @font-face {
+        font-family: "Agustina";
+        src: url(/fonts/agustina/agustina.otf);
+      }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
+    <!--$-->
+    <title>Hamza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--/-->
+    <script src="app.client.dart.js" defer></script>
+    <style>
+      .app-button {
+        padding: 10px;
+        width: 100px;
+        border: solid #C0392B 1px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-color: transparent;
+      }
+      .app-button:hover {
+        background-color: #C0392B;
+        cursor: pointer;
+        transition: background-color 500ms;
+      }
+      .label {
+        font-size: 12px;
+      }
+      .contact-card {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 300px;
+        height: 150px;
+        border-radius: 12px;
+        background-color: #212121;
+      }
+      .contact-card:hover {
+        box-shadow: 0px 0px 8px 2px #C0392B;
+        transition: box-shadow 500ms;
+      }
+      .c-icon {
+        color: #C0392B;
+        font-size: 50px;
+      }
+      .c-title {
+        color: #C0392B;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .c-description {
+        font-size: 12px;
+      }
+      .foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        font-size: 12px;
+      }
+      .tech-name {
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: 5px;
+      }
+      .navbar {
+        padding: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+      }
+      .navbar-label {
+        padding-right: 35px;
+        font-size: 12px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .navbar-label:hover {
+        color: #C0392B;
+        transition: color 500ms;
+      }
+      .labels {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+      }
+      .brand {
+        font-family: 'Agustina';
+        font-size: 24px;
+      }
+      .banner-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 350px;
+        height: 200px;
+        border-radius: 12px;
+        background-color: #212121;
+        text-decoration: none;
+      }
+      .banner-card:hover {
+        box-shadow: 0px 0px 8px 2px #C0392B;
+        cursor: pointer;
+        transition: box-shadow 500ms;
+      }
+      .banner-image {
+        width: 350px;
+        height: 200px;
+      }
+      .service-description {
+        font-size: 12px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+      }
+      .banner-image {
+        opacity: 1.0;
+        border-radius: 12px;
+        position: absolute;
+      }
+      .banner-image:hover {
+        opacity: 0.0;
+        transition: opacity 500ms;
+      }
+      .service-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 250px;
+        height: 200px;
+        border-radius: 12px;
+        background-color: #212121;
+      }
+      .service-title {
+        font-size: 14px;
+        margin-top: 10px;
+      }
+      .service-card:hover {
+        box-shadow: 0px 0px 8px 2px #C0392B;
+        transition: box-shadow 500ms;
+      }
+      .home-body {
+        width: 100vw;
+        background-color: black;
+      }
+      .about-me-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 5vh;
+        width: 100%;
+      }
+      .play-icon {
+        color: #C0392B;
+      }
+      .title {
+        font-family: 'Montserrat';
+        font-size: 40px;
+        font-weight: 100;
+      }
+      .section-body {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+      }
+      .profile-picture {
+        background-image: url(/images/photos/colored.png);
+        background-size: cover;
+        margin-right: 100px;
+        width: 450px;
+        height: 700px;
+      }
+      .about-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 750px;
+      }
+      .intro-label {
+        font-size: 18px;
+      }
+      .intro-heading {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+      }
+      .intro-details {
+        color: lightGrey;
+        word-spacing: 1.5px;
+        line-height: 3vh;
+      }
+      .divider {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100%;
+        height: 1px;
+        background-color: lightGrey;
+      }
+      .tech-label {
+        font-size: 12px;
+      }
+      .tech-stack {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        margin-top: 15px;
+      }
+      .tech-item {
+        margin-left: 5px;
+        margin-right: 12px;
+        font-size: 14px;
+      }
+      .personal-label {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .personal-value {
+        font-size: 12px;
+      }
+      .personal-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .work-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      @media screen and (max-width: 1350px) {
+      .profile-picture {
+        margin-left: 50px;
+        margin-right: 50px;
+        max-height: 100%;
+      }
+      .about-details {
+        width: 45vw;
+      }
+      }
+      @media screen and (max-width: 1100px) {
+      .profile-picture {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 400px;
+        max-height: 80%;
+      }
+      .about-details {
+        width: 45vw;
+      }
+      }
+      @media screen and (max-width: 900px) {
+      .about-me-section {
+        padding-top: 3vh;
+        padding-right: 0vw;
+      }
+      .section-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+      }
+      .profile-picture {
+        background-image: url(/images/photos/mobile.png);
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+      }
+      .about-details {
+        margin-top: 40px;
+        width: 80%;
+      }
+      }
+      .info-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10vw;
+      }
+      .welcome {
+        margin-bottom: 2.5vh;
+        display: flex;
+        align-items: end;
+      }
+      .welcome-text {
+        padding-right: 12px;
+        padding-bottom: 2px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+      }
+      .first-name {
+        padding-top: 3vh;
+        font-family: 'Montserrat';
+        font-weight: 100;
+        line-height: 3vh;
+      }
+      @font-face {
+        font-family: "PoppinsBold";
+        src: url(/fonts/poppins/Poppins-Bold.ttf);
+      }
+      .last-name {
+        font-family: 'PoppinsBold';
+        font-weight: bolder;
+      }
+      .main-image {
+        width: 75vh;
+        height: 85vh;
+        background-image: url(/images/photos/black-white.png);
+        background-size: cover;
+      }
+      .play-icon {
+        color: #C0392B;
+      }
+      .subtitle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .dynamic-subtitles {
+        margin-left: 15px;
+        font-size: 18px;
+      }
+      .socials {
+        padding-top: 2vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .social-icon {
+        color: white;
+        font-size: 25px;
+        padding-right: 25px;
+      }
+      .social-icon:hover {
+        color: #C0392B;
+        transition: color 300ms;
+      }
+      @media screen and (max-width: 1100px) {
+      .welcome-text {
+        font-size: 15px;
+      }
+      .first-name {
+        font-size: 50px;
+      }
+      .last-name {
+        font-size: 50px;
+      }
+      .dynamic-subtitles {
+        font-size: 14px;
+      }
+      .main-image {
+        width: 55vh;
+        height: 65vh;
+      }
+      .play-icon {
+        height: 15px;
+      }
+      }
+      @media screen and (max-width: 786px) {
+      .info-section {
+        display: flex;
+        flex-direction: column;
+      }
+      .main-image {
+        width: 45vh;
+        height: 55vh;
+        align-self: end;
+      }
+      .info {
+        align-self: start;
+      }
+      }
+      .contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 5vh 10vw;
+      }
+      .contact-body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+      }
+      .projects-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 5vh 10vw;
+      }
+      .section-body-projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+      }
+      .services-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+      }
+      .section-body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+      }
+      .main p {
+        color: white;
+      }
+      .main a {
+        color: white;
+      }
+      .main h1 {
+        color: white;
+      }
+      .main h2 {
+        color: white;
+      }
+      .main span {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!--$app-->
+    <div class="main">
+      <div class="home-body">
+        <section class="navbar">
+          <div><span>&lt; </span><span class="brand">Hamza</span><span> &#47;&gt;</span></div>
+          <div class="labels">
+            <a class="navbar-label" href="#">HOME</a>
+            <a class="navbar-label" href="#about">ABOUT</a>
+            <a class="navbar-label" href="#services">SERVICES</a>
+            <a class="navbar-label" href="#projects">PROJECTS</a>
+            <a class="navbar-label" href="#contact">CONTACT</a>
+            <a class="app-button" href="https://drive.google.com/drive/u/0/folders/1E6NxJlmnW2lTYTszcbODdpXiPFYe_kBM" target="_blank"><span class="label">RESUME</span></a>
+          </div>
+        </section>
+        <section class="info-section">
+          <div class="info">
+            <div class="welcome">
+              <span class="welcome-text">WELCOME TO MY PORTFOLIO</span>
+              <img class="wave" height="35" src="/images/hi.gif"/>
+            </div>
+            <h1 class="first-name">Muhammad</h1>
+            <h1 class="last-name">Hamza</h1>
+            <span class="subtitle">
+              <i class="fa-solid fa-play play-icon"></i>
+              <span class="dynamic-subtitles">Flutter Enthusiast</span>
+            </span>
+            <div class="socials">
+              <a class="social-icon" href="https://www.facebook.com/mhmzdev" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+              <a class="social-icon" href="https://www.linkedin.com/in/mhmzdev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a class="social-icon" href="https://github.com/mhmzdev" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a class="social-icon" href="https://twitter.com/mhmzdev" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a class="social-icon" href="https://www.instagram.com/mhmzdev/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a class="social-icon" href="https://mhmzdev.medium.com" target="_blank"><i class="fa-brands fa-medium"></i></a>
+            </div>
+          </div>
+          <div class="main-image"></div>
+        </section>
+        <section class="about-me-section">
+          <span id="about" class="title">About Me</span>
+          <span class="subtitle">Get to know me :)</span>
+          <div class="section-body">
+            <div class="profile-picture"></div>
+            <div class="about-details">
+              <span class="intro-label" style="color: #C0392B">Who am I?</span>
+              <span class="intro-heading">
+                I&#39;m Muhammad Hamza, a Flutter Developer, Technical blog writer and UI&#47;UX Designer.
+              </span>
+              <span class="intro-details" style="color: lightGrey">
+                I&#39;m a fresh graduate with Computer Science as Majors from COMSATS University Islamabad. I have been working with Flutter for the past 2 years and have developed multiple applications for both Android and iOS platforms. I have a keen interest in UI&#47;UX designing and have been working on it for the past 3 years. I have also been writing technical blogs for the past 2 years and have been a part of multiple technical writing communities.
+              </span>
+              <div class="divider"></div>
+              <span class="tech-label" style="color: #C0392B">Technologies I have worked with:</span>
+              <div class="tech-stack">
+                <span><i class="fa-solid fa-play play-icon"></i><span class="tech-item">Flutter</span></span>
+                <span><i class="fa-solid fa-play play-icon"></i><span class="tech-item">Dart</span></span>
+                <span>
+                  <i class="fa-solid fa-play play-icon"></i>
+                  <span class="tech-item">Firebase</span>
+                </span>
+                <span><i class="fa-solid fa-play play-icon"></i><span class="tech-item">Python</span></span>
+                <span>
+                  <i class="fa-solid fa-play play-icon"></i>
+                  <span class="tech-item">dart_frog</span>
+                </span>
+                <span><i class="fa-solid fa-play play-icon"></i><span class="tech-item">jaspr</span></span>
+                <span><i class="fa-solid fa-play play-icon"></i><span class="tech-item">nodejs</span></span>
+                <span><i class="fa-solid fa-play play-icon"></i><span class="tech-item">express</span></span>
+              </div>
+              <div class="divider"></div>
+              <div class="personal-row">
+                <div>
+                  <span class="personal-label">Name: </span>
+                  <span class="personal-value"> Muhammad Hamza</span>
+                </div>
+                <div>
+                  <span class="personal-label">Email: </span>
+                  <span class="personal-value"> hamza.6.shakeel@gmail.com</span>
+                </div>
+              </div>
+              <div style="height: 15px"></div>
+              <div class="personal-row">
+                <div><span class="personal-label">Age: </span><span class="personal-value"> 25</span></div>
+                <div>
+                  <span class="personal-label">From: </span>
+                  <span class="personal-value"> Islamabad, PK</span>
+                </div>
+              </div>
+              <div style="height: 25px"></div>
+              <div class="work-row">
+                <a class="app-button" href="https://drive.google.com/drive/u/0/folders/1E6NxJlmnW2lTYTszcbODdpXiPFYe_kBM" target="_blank"><span class="label">RESUME</span></a>
+                <div class="divider" style="width: 80px"></div>
+                <a class="work-item" href="https://www.comsats.edu.pk/" target="_blank"><img height="50" src="/images/work/cui.png"/></a>
+                <a class="work-item" href="https://developers.google.com/community/dsc" target="_blank"><img height="30" src="/images/work/dsc.png"/></a>
+                <a class="work-item" href="https://meetup.com/flutter-islamabad" target="_blank"><img height="60" src="/images/work/flutterIsl.png"/></a>
+                <a class="work-item" href="https://www.sastaticket.pk/" target="_blank"><img height="60" src="/images/work/st.png"/></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="services-section">
+          <span class="title">What I can do?</span>
+          <span class="subtitle">I may not be perfect but surely I&#39;m of some use :)</span>
+          <div id="services" class="section-body">
+            <div class="service-card">
+              <img height="80" src="/images/services/app.png"/>
+              <span class="service-title">Mobile Development</span>
+            </div>
+            <div class="service-card">
+              <img height="80" src="/images/services/ui.png"/>
+              <span class="service-title">UI&#47;UX Design</span>
+            </div>
+            <div class="service-card">
+              <img height="80" src="/images/services/rapid.png"/>
+              <span class="service-title">Rapid Prototyping</span>
+            </div>
+            <div class="service-card">
+              <img height="80" src="/images/services/blog.png"/>
+              <span class="service-title">Technical Writing</span>
+            </div>
+            <div class="service-card">
+              <img height="80" src="/images/services/open.png"/>
+              <span class="service-title">Open Source - GitHub</span>
+            </div>
+          </div>
+        </section>
+        <section class="projects-section">
+          <span class="title">Portfolio</span>
+          <span class="subtitle">Here are few samples of my work :)</span>
+          <div id="projects" class="section-body-projects">
+            <a class="banner-card" href="https://pub.dev/packages/awesome_snackbar" target="_blank">
+              <div class="banner-image" style="background-image: url(/images/projects/snackbar.png); background-size: cover"></div>
+              <img height="40" src="/images/projects/flutter.png"/>
+              <span class="service-title">Awesome Snackbar</span>
+              <span class="service-description">
+                A very unique dart package to uplift the snackbar experience in flutter. Available at pub.dev now!
+              </span>
+            </a>
+            <a class="banner-card" href="https://github.com/mhmzdev/the-holy-quran-app" target="_blank">
+              <div class="banner-image" style="background-image: url(/images/projects/quranB.png); background-size: cover"></div>
+              <img height="40" src="/images/projects/quran.png"/>
+              <span class="service-title">Quran App</span>
+              <span class="service-description">
+                Application of Holy book of Muslims, Al-Qur&#39;an. Developed using Flutter. Powered with live RestAPI given in README.md
+              </span>
+            </a>
+            <a class="banner-card" href="https://github.com/mhmzdev/MedKit-Pharmacy-App-Using-Flutter" target="_blank">
+              <div class="banner-image" style="background-image: url(/images/projects/medkitB.png); background-size: cover"></div>
+              <img height="40" src="/images/projects/medkit.png"/>
+              <span class="service-title">MedKit</span>
+              <span class="service-description">
+                A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels.
+              </span>
+            </a>
+            <a class="banner-card" href="https://github.com/mhmzdev/Here-I-Am-Alert-App" target="_blank">
+              <div class="banner-image" style="background-image: url(/images/projects/hereiamB.png); background-size: cover"></div>
+              <img height="40" src="/images/projects/hereiam.png"/>
+              <span class="service-title">Here I Am</span>
+              <span class="service-description">
+                Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones.
+              </span>
+            </a>
+            <a class="banner-card" href="https://github.com/mhmzdev/Covid19-Tracker-App" target="_blank">
+              <div class="banner-image" style="background-image: url(/images/projects/covidB.png); background-size: cover"></div>
+              <img height="40" src="/images/projects/covid.png"/>
+              <span class="service-title">Covid-19 Tracker</span>
+              <span class="service-description">
+                A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live.
+              </span>
+            </a>
+          </div>
+          <div style="height: 45px"></div>
+          <a class="app-button" href="https://github.com/mhmzdev" target="_blank"><span class="label">See more</span></a>
+        </section>
+        <section class="contact-section">
+          <span class="title">Get in Touch</span>
+          <span class="subtitle">Let&#39;s build something together :)</span>
+          <div id="contact" class="contact-body">
+            <a class="contact-card" href="https://maps.app.goo.gl/ek2SSNh26K1i4HNF6" target="_blank">
+              <i class="fa-duotone fa-solid fa-house c-icon"></i>
+              <span class="c-title">Location</span>
+              <span class="c-description">Islamabad, PK</span>
+            </a>
+            <a class="contact-card" href="https://wa.me/923460159889" target="_blank">
+              <i class="fa-duotone fa-solid fa-phone c-icon"></i>
+              <span class="c-title">Phone</span>
+              <span class="c-description">+92 346 0159889</span>
+            </a>
+            <a class="contact-card" href="mailto:hamza.6.shakeel@gmail.com" target="_blank">
+              <i class="fa-duotone fa-solid fa-envelope c-icon"></i>
+              <span class="c-title">Email</span>
+              <span class="c-description">hamza.6.shakeel@gmail.com</span>
+            </a>
+          </div>
+        </section>
+        <footer class="foot">
+          <span>Developed in 💙 with</span>
+          <a class="tech-name" style="color: #1977d1" href="https://docs.page/schultek/jaspr" target="_blank">Jaspr</a>
+        </footer>
+      </div>
+    </div>
+    <!--/$app-->
+  </body>
+</html>
