@@ -3708,7 +3708,7 @@ a7.S(0,A.bo(a9,a9))
 a7.p(0,"height",""+a6)
 a7.p(0,"src",a5)
 a2.push(A.hl(A.e([new A.H("img",null,null,null,a7,null,null,null,null)],b0),"work-item",a4,null,B.p))}r=2
-return b2.b=new A.H("section",null,"about-me-section",null,null,null,null,A.e([o,n,A.G(A.e([m,A.G(A.e([l,k,j,i,h,g,d,c,b,a0,a1,A.G(a2,"work-row",null)],b0),"about-details",null)],b0),"section-body",null)],b0),null),1
+return b2.b=new A.H("section",null,"about-me-section",null,null,null,null,A.e([o,n,A.G(A.e([m,A.G(A.e([l,k,j,i,h,g,d,c,b,a0,a1,A.G(a2,"work-row",null)],b0),"about-details",null)],b0),"about-section-body",null)],b0),null),1
 case 2:return 0
 case 1:return b2.c=p,3}}}}}
 A.b8.prototype={

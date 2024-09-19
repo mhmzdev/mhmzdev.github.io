@@ -20,6 +20,17 @@
         font-family: "Agustina";
         src: url(/fonts/agustina/agustina.otf);
       }
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 0px;
+      }
+      ::-webkit-scrollbar-track {
+        border-radius: 8px;
+      }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: #C0392B;
+      }
     </style>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
     <!--$-->
@@ -194,7 +205,6 @@
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        padding-top: 5vh;
         width: 100%;
       }
       .play-icon {
@@ -205,10 +215,13 @@
         font-size: 40px;
         font-weight: 100;
       }
-      .section-body {
+      .about-section-body {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
         margin-top: 50px;
+        width: 100%;
       }
       .profile-picture {
         background-image: url(/images/photos/colored.png);
@@ -306,7 +319,7 @@
         padding-top: 3vh;
         padding-right: 0vw;
       }
-      .section-body {
+      .about-section-body {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -530,7 +543,7 @@
         <section class="about-me-section">
           <span id="about" class="title">About Me</span>
           <span class="subtitle">Get to know me :)</span>
-          <div class="section-body">
+          <div class="about-section-body">
             <div class="profile-picture"></div>
             <div class="about-details">
               <span class="intro-label" style="color: #C0392B">Who am I?</span>

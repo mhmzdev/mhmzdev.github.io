@@ -3892,7 +3892,7 @@ for(g=0;g<4;++g){a3=a8[g]
 a1=A.u(a3.k(0,"url"))
 a4=A.u(a3.k(0,"image"))
 a2.push(A.a5(A.a([A.f5(null,A.b7(a3.k(0,"height")),a4)],a7),"work-item",a1,null,B.e))}r=2
-return a9.b=A.cc(A.a([a6,o,A.v(A.a([n,A.v(A.a([m,l,k,j,i,h,e,d,c,b,a0,A.v(a2,"work-row",null,null)],a7),"about-details",null,null)],a7),"section-body",null,null)],a7),"about-me-section"),1
+return a9.b=A.cc(A.a([a6,o,A.v(A.a([n,A.v(A.a([m,l,k,j,i,h,e,d,c,b,a0,A.v(a2,"work-row",null,null)],a7),"about-details",null,null)],a7),"about-section-body",null,null)],a7),"about-me-section"),1
 case 2:return 0
 case 1:return a9.c=p,3}}}}}
 A.cm.prototype={

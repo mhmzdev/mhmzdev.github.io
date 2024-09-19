@@ -53,7 +53,7 @@ for(l=0;l<4;++l){a0=a6[l]
 a1=A.u(a0.j(0,"url"))
 a2=A.u(a0.j(0,"image"))
 e.push(L.ad(A.a([N.fy(null,A.bp(a0.j(0,"height")),a2)],a5),"work-item",a1,null,M.e))}w=2
-return a7.b=I.cz(A.a([a4,t,D.B(A.a([s,D.B(A.a([r,q,p,o,n,m,j,i,h,g,f,D.B(e,"work-row",null,null)],a5),"about-details",null,null)],a5),"section-body",null,null)],a5),"about-me-section"),1
+return a7.b=I.cz(A.a([a4,t,D.B(A.a([s,D.B(A.a([r,q,p,o,n,m,j,i,h,g,f,D.B(e,"work-row",null,null)],a5),"about-details",null,null)],a5),"about-section-body",null,null)],a5),"about-me-section"),1
 case 2:return 0
 case 1:return a7.c=u,3}}}}}
 C.dz.prototype={
@@ -82,5 +82,5 @@ A.ac(b.typeUniverse,JSON.parse('{"bv":{"G":[],"h":[]},"dz":{"h0":[]},"dJ":{"hg":
 var y={p:A.p("r<h>"),o:A.p("n"),g:A.p("c"),n:A.p("D<h>")};(function constants(){F.A=new C.dz()
 F.q=new G.cb("#C0392B")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.clients.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"MxRJyMvqe93u5QLepVaYx6rH3hA=");
+a.eventLog.push({p:"main.clients.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"e3y16IbLZq3NZh4zzyXM+vF5eaE=");
 //# sourceMappingURL=main.clients.dart.js_2.part.js.map
