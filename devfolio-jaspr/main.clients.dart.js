@@ -2279,7 +2279,7 @@ kr(){return A.b2("prefix4",0)},
 ks(){return A.b2("prefix5",0)},
 kt(){return A.b2("prefix6",0)},
 ku(){return A.b2("prefix7",0)},
-lA(){A.lM(A.E(["components/app_button",A.b1(A.lB(),new A.fL()),"components/nav_bar",A.b1(A.lE(),new A.fM()),"app",A.b1(A.lI(),new A.fN()),"sections/about_me",A.b1(A.lH(),new A.fO()),"components/service_card",A.b1(A.lG(),new A.fP()),"components/project_card",A.b1(A.lF(),new A.fQ()),"components/contact",A.b1(A.lC(),new A.fR()),"components/footer",A.b1(A.lD(),new A.fS())],t.N,t.cV))},
+lA(){A.lM(A.E(["sections/about_me",A.b1(A.lH(),new A.fL()),"components/project_card",A.b1(A.lF(),new A.fM()),"components/contact",A.b1(A.lC(),new A.fN()),"components/app_button",A.b1(A.lB(),new A.fO()),"components/nav_bar",A.b1(A.lE(),new A.fP()),"components/footer",A.b1(A.lD(),new A.fQ()),"components/service_card",A.b1(A.lG(),new A.fR()),"app",A.b1(A.lI(),new A.fS())],t.N,t.cV))},
 fL:function fL(){},
 fM:function fM(){},
 fN:function fN(){},
@@ -2301,8 +2301,8 @@ while(true)switch(s){case 0:q=A.lA()
 s=1
 break
 case 1:return A.dO(q,r)}})
-return A.dP($async$hy,r)}},B={},C={},L={},M={},N={},D={},O={},P={},Q={},R={},S={},T={},U={},V={},W={},X={},Y={},Z={},E={},F={},G={},H={},I={},A_={},A0={},A1={},A2={},A3={},K={}
-var w=[A,J,B,C,K,D,E,F,G,H,I,Y,Z,L,W,V,R,Q,T,M,U,P,N,A3,A1,A_,O,A2,X,S,A0]
+return A.dP($async$hy,r)}},B={},C={},L={},M={},N={},D={},O={},P={},Q={},E={},R={},F={},G={},S={},H={},T={},U={},V={},I={},W={},K={},X={},Y={},Z={},A_={},A0={},A1={},A2={},A3={}
+var w=[A,J,B,C,D,E,F,G,H,I,K,R,T,S,O,W,Q,A0,L,Z,N,A3,A_,M,A1,V,X,A2,P,U,Y]
 var $={}
 A.h7.prototype={}
 J.bH.prototype={
@@ -4466,43 +4466,43 @@ q.d=null}},
 gZ(){return this}}
 A.fL.prototype={
 $1(a){t.Z.a(a)
-A.b_("prefix0")
+A.b_("prefix6")
 return C.lp(a)},
 $S:3}
 A.fM.prototype={
 $1(a){t.Z.a(a)
-A.b_("prefix3")
-return K.lo(a)},
+A.b_("prefix4")
+return D.lo(a)},
 $S:3}
 A.fN.prototype={
 $1(a){t.Z.a(a)
-A.b_("prefix7")
-return D.ln(a)},
+A.b_("prefix1")
+return E.ln(a)},
 $S:3}
 A.fO.prototype={
 $1(a){t.Z.a(a)
-A.b_("prefix6")
-return E.lm(a)},
+A.b_("prefix0")
+return F.lm(a)},
 $S:3}
 A.fP.prototype={
 $1(a){t.Z.a(a)
-A.b_("prefix5")
-return F.ll(a)},
+A.b_("prefix3")
+return G.ll(a)},
 $S:3}
 A.fQ.prototype={
 $1(a){t.Z.a(a)
-A.b_("prefix4")
-return G.lk(a)},
+A.b_("prefix2")
+return H.lk(a)},
 $S:3}
 A.fR.prototype={
 $1(a){t.Z.a(a)
-A.b_("prefix1")
-return H.lj(a)},
+A.b_("prefix5")
+return I.lj(a)},
 $S:3}
 A.fS.prototype={
 $1(a){t.Z.a(a)
-A.b_("prefix2")
-return I.li(a)},
+A.b_("prefix7")
+return K.li(a)},
 $S:3};(function aliases(){var s=J.bH.prototype
 s.bO=s.i
 s=J.aQ.prototype
@@ -4610,8 +4610,8 @@ initializeLoadedHunk:function(a){var s=$__dart_deferred_initializers__[a]
 if(s==null){throw"DeferredLoading state error: code with hash '"+a+"' was not loaded"}initializeDeferredHunk(s)
 v.deferredInitialized[a]=true},
 deferredLibraryParts:{prefix0:[0,1,2,3,4],prefix1:[0,1,5,6,7],prefix2:[0,1,2,8,9,10],prefix3:[0,1,2,11,3,12,13,14],prefix4:[0,1,2,11,15,16,17],prefix5:[0,11,15,18,19],prefix6:[0,1,2,11,15,3,12,8,5,20,21],prefix7:[0,1,2,11,15,3,12,8,5,20,18,16,13,9,6,22]},
-deferredPartUris:["main.clients.dart.js_4.part.js","main.clients.dart.js_5.part.js","main.clients.dart.js_6.part.js","main.clients.dart.js_2.part.js","main.clients.dart.js_1.part.js","main.clients.dart.js_15.part.js","main.clients.dart.js_26.part.js","main.clients.dart.js_31.part.js","main.clients.dart.js_19.part.js","main.clients.dart.js_27.part.js","main.clients.dart.js_32.part.js","main.clients.dart.js_12.part.js","main.clients.dart.js_11.part.js","main.clients.dart.js_10.part.js","main.clients.dart.js_9.part.js","main.clients.dart.js_14.part.js","main.clients.dart.js_24.part.js","main.clients.dart.js_30.part.js","main.clients.dart.js_22.part.js","main.clients.dart.js_29.part.js","main.clients.dart.js_18.part.js","main.clients.dart.js_28.part.js","main.clients.dart.js_13.part.js"],
-deferredPartHashes:["xpVXvaXDXQJkbp6h4O6pY0uHHn8=","9zYhlPmARDh77UHIXVSMKbcGGJU=","3vVB1dHBQpDrcPOKoe7L1Lr4zzE=","4/SQr6iT7V0eTgrDIvecdfrryOo=","sndIxBGOlpyY3R3ae37xBuMcWAc=","wUtaS11ulQKDt1RsNuIJ5TjYnCw=","WTGLEkbTCJLXhumg+LZb+EbdIm4=","4RW8Bwkx6+GEPZFFRZqIWjznc5g=","46mG43iOK3A8umGGLm4ufrqFK2o=","VhpUhM8FYAThqRvdHo0MBNg9wD8=","X5K/2EfO4DcM6KDvHHLIUjHfSVk=","zw13xG6fHYhZbcUhb8PC1T6hbLw=","UQcB2Hs18wVTdiRZQKYejA69mkk=","6iPkJ1oqQ/PZeds47CZayb5wVlU=","HVvm/64JF2lLVcE3wqOr/xPS4yQ=","qTIACT+XUfZD9+1wW+L6FoppUCQ=","7UImqjXHpemmWfB2W+PISoCus+Q=","v/ZPL06fCovm/Q4g9N1zPNkeZC8=","Tjm4IYgw26GpqjA7ffoOd1Fckhw=","k+teZmGT+cpwEbjPTsM1Zi8B3wk=","H6aSX4HurVah3Cq8JoFzfxDNuq8=","SnQffHCTQd5JXsC8zEvSVNNZK2E=","SjNnZWFl0AvJW4VyNI9gDjYVKjQ="],
+deferredPartUris:["main.clients.dart.js_3.part.js","main.clients.dart.js_8.part.js","main.clients.dart.js_13.part.js","main.clients.dart.js_14.part.js","main.clients.dart.js_25.part.js","main.clients.dart.js_6.part.js","main.clients.dart.js_24.part.js","main.clients.dart.js_23.part.js","main.clients.dart.js_11.part.js","main.clients.dart.js_29.part.js","main.clients.dart.js_28.part.js","main.clients.dart.js_5.part.js","main.clients.dart.js_4.part.js","main.clients.dart.js_27.part.js","main.clients.dart.js_26.part.js","main.clients.dart.js_9.part.js","main.clients.dart.js_19.part.js","main.clients.dart.js_18.part.js","main.clients.dart.js_31.part.js","main.clients.dart.js_30.part.js","main.clients.dart.js_2.part.js","main.clients.dart.js_1.part.js","main.clients.dart.js_32.part.js"],
+deferredPartHashes:["NkzJ1oksetF5MaeG40coofMUKdQ=","QeWEQQ61Op7la/z4gSJeC0ve3t8=","ggXXpHD00C17eEJMCZQymV3GIY0=","U0vmRXdY1Uki0mTH6uuwdrDkiD0=","rcGDJndwltijbu8rhC9HGqqWBmc=","Lh3bmScAcbTjLCMc2LkiOZoFHMg=","PtDfDRWdIvw4MgGpWXKGM5L0cAI=","4LnZTj82QqFVz4+higzHRRKSl4E=","mnrcyj6glXLB679QAQyV9H19QCI=","kkGfkP+o20QCWGu3GOAhVT0c1os=","Ja02D9WIHE8b1bLW/pAV/B5kEv4=","0BJ13K/TKSqzSplPhMsIg18epUI=","Fy0GVu8Zaw6cvCUvoZ7mPw14lxs=","TmyHps7tSh2en+A31iPo7AEyvKI=","gyZ6wUTaBRuQWOZanF0h1h/2XZI=","9FoRz0gr2stRkNDkrqMSrNspWjk=","Hs7qTEy0uwiD1Br9SpvpMb47o/s=","9cVuJeAJRb4ydJS+iWPtuLcfVyc=","oUZkQRI/eCfs3zZ/9SxLzQHOOXA=","uKUKWIJ5bPmbvjPT6ZS0+CSe/Ak=","MxRJyMvqe93u5QLepVaYx6rH3hA=","Hh9bHHShmXn0RVld3cnKElyanEk=","LjMr/wtng8r2ZWq5Mv/k7hAZ52A="],
 typeUniverse:{eC:new Map(),tR:{},eT:{},tPV:{},sEA:[]},
 mangledGlobalNames:{aG:"int",dT:"double",cy:"num",c:"String",ft:"bool",y:"Null",x:"List",n:"Object",F:"Map"},
 mangledNames:{},
