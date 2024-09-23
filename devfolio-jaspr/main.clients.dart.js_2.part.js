@@ -24,7 +24,7 @@ return function $async$q(a7,a8,a9){if(a8===1){u=a9
 w=v}while(true)switch(w){case 0:a3=["Flutter","Dart","Firebase","Python","dart_frog","jaspr","nodejs","express"]
 a4=y.g
 a5=y.o
-a6=[A.E(["image","/images/work/cui.png","url","https://www.comsats.edu.pk/","height",50],a4,a5),A.E(["image","/images/work/dsc.png","url","https://developers.google.com/community/dsc","height",30],a4,a5),A.E(["image","/images/work/flutterIsl.png","url","https://meetup.com/flutter-islamabad","height",60],a4,a5),A.E(["image","/images/work/st.png","url","https://www.sastaticket.pk/","height",60],a4,a5)]
+a6=[A.E(["image","images/work/cui.png","url","https://www.comsats.edu.pk/","height",50],a4,a5),A.E(["image","images/work/dsc.png","url","https://developers.google.com/community/dsc","height",30],a4,a5),A.E(["image","images/work/flutterIsl.png","url","https://meetup.com/flutter-islamabad","height",60],a4,a5),A.E(["image","images/work/st.png","url","https://www.sastaticket.pk/","height",60],a4,a5)]
 a5=y.p
 a4=B.w(A.a([new B.m("About Me",null)],a5),"title","about",null)
 t=B.w(A.a([new B.m("Get to know me :)",null)],a5),"subtitle",null,null)
@@ -82,5 +82,5 @@ A.ac(b.typeUniverse,JSON.parse('{"bv":{"G":[],"h":[]},"dz":{"h0":[]},"dJ":{"hg":
 var y={p:A.p("r<h>"),o:A.p("n"),g:A.p("c"),n:A.p("D<h>")};(function constants(){F.A=new C.dz()
 F.q=new G.cb("#C0392B")})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.clients.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"e3y16IbLZq3NZh4zzyXM+vF5eaE=");
+a.eventLog.push({p:"main.clients.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"gogzY/+Bt9FLbDBAr+hKD0vUnHw=");
 //# sourceMappingURL=main.clients.dart.js_2.part.js.map

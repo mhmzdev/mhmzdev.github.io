@@ -3674,7 +3674,7 @@ return function $async$ad(b2,b3,b4){if(b3===1){p=b4
 r=q}while(true)switch(r){case 0:a8=["Flutter","Dart","Firebase","Python","dart_frog","jaspr","nodejs","express"]
 a9=t.N
 b0=t.K
-b1=[A.ct(["image","/images/work/cui.png","url","https://www.comsats.edu.pk/","height",50],a9,b0),A.ct(["image","/images/work/dsc.png","url","https://developers.google.com/community/dsc","height",30],a9,b0),A.ct(["image","/images/work/flutterIsl.png","url","https://meetup.com/flutter-islamabad","height",60],a9,b0),A.ct(["image","/images/work/st.png","url","https://www.sastaticket.pk/","height",60],a9,b0)]
+b1=[A.ct(["image","images/work/cui.png","url","https://www.comsats.edu.pk/","height",50],a9,b0),A.ct(["image","images/work/dsc.png","url","https://developers.google.com/community/dsc","height",30],a9,b0),A.ct(["image","images/work/flutterIsl.png","url","https://meetup.com/flutter-islamabad","height",60],a9,b0),A.ct(["image","images/work/st.png","url","https://www.sastaticket.pk/","height",60],a9,b0)]
 b0=t.i
 o=A.J(A.e([new A.A("About Me",null)],b0),"title","about",null)
 n=A.J(A.e([new A.A("Get to know me :)",null)],b0),"subtitle",null,null)
