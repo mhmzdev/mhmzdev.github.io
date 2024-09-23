@@ -3904,7 +3904,7 @@ r=q}while(true)switch(r){case 0:g=t.N
 f=t.z
 e=[A.A(["icon","fa-brands fa-square-facebook","url","https://www.facebook.com/mhmzdev"],g,f),A.A(["icon","fa-brands fa-linkedin","url","https://www.linkedin.com/in/mhmzdev/"],g,f),A.A(["icon","fa-brands fa-github","url","https://github.com/mhmzdev"],g,f),A.A(["icon","fa-brands fa-x-twitter","url","https://twitter.com/mhmzdev"],g,f),A.A(["icon","fa-brands fa-instagram","url","https://www.instagram.com/mhmzdev/"],g,f),A.A(["icon","fa-brands fa-medium","url","https://mhmzdev.medium.com"],g,f)]
 f=t.i
-g=A.v(A.a([A.q(A.a([new A.l("WELCOME TO MY PORTFOLIO",null)],f),"welcome-text",null,null),A.f5("wave",35,"/images/hi.gif")],f),"welcome",null,null)
+g=A.v(A.a([A.q(A.a([new A.l("WELCOME TO MY PORTFOLIO",null)],f),"welcome-text",null,null),A.f5("wave",35,"images/hi.gif")],f),"welcome",null,null)
 o=A.hT(A.a([new A.l("Muhammad",null)],f),"first-name")
 n=A.hT(A.a([new A.l("Hamza",null)],f),"last-name")
 m=A.q(A.a([A.f4(A.a([],f),"fa-solid fa-play play-icon"),A.q(A.a([new A.l("Flutter Enthusiast",null)],f),"dynamic-subtitles",null,null)],f),"subtitle",null,null)
