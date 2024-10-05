@@ -1074,7 +1074,7 @@ gcN(d){return this.c}}
 A.e8.prototype={
 bB(){var x=0,w=B.cc(y.a),v,u
 var $async$bB=B.bx(function(d,e){if(d===1)return B.c9(e,w)
-while(true)switch(x){case 0:u=A.m6("lib/data/data.json")
+while(true)switch(x){case 0:u=A.m6("web/data/data.json")
 v=A.mv(y.P.a(C.p.cG(0,u.dX(u.eJ(),D.E),null)))
 x=1
 break
@@ -1408,5 +1408,5 @@ x($,"p5","lm",()=>A.mU())
 x($,"p4","ll",()=>{$.lm()
 return!1})})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.clients.dart.js_31",e:"endPart",h:b})})($__dart_deferred_initializers__,"/giMW7SWk16CN9eraOiDkD4Mygg=");
+a.eventLog.push({p:"main.clients.dart.js_31",e:"endPart",h:b})})($__dart_deferred_initializers__,"0anuDISDtK0zGLGneIMAvS6hDjc=");
 //# sourceMappingURL=main.clients.dart.js_31.part.js.map

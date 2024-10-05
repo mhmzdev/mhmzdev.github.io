@@ -5322,7 +5322,7 @@ A.f_.prototype={}
 A.dP.prototype={
 bv(){var s=0,r=A.bZ(t.ac),q,p
 var $async$bv=A.bm(function(a,b){if(a===1)return A.bW(b,r)
-while(true)switch(s){case 0:p=A.la("lib/data/data.json")
+while(true)switch(s){case 0:p=A.la("web/data/data.json")
 q=A.lz(t.a.a(B.p.cv(0,p.dN(p.ex(),B.E),null)))
 s=1
 break

@@ -7,6 +7,7 @@ components/footer.client.dart.js
 components/nav_bar.client.dart.js
 components/project_card.client.dart.js
 components/service_card.client.dart.js
+data/data.json
 favicon.ico
 fonts/agustina/agustina.otf
 fonts/montserrat/montserrat.ttf
@@ -93,7 +94,6 @@ packages/devfolio/components/project_card.client.json
 packages/devfolio/components/project_card.styles.json
 packages/devfolio/components/service_card.client.json
 packages/devfolio/components/service_card.styles.json
-packages/devfolio/data/data.json
 packages/devfolio/pages/home.styles.json
 packages/devfolio/sections/about_me.client.json
 packages/devfolio/sections/about_me.styles.json
