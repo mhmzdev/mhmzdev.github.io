@@ -1,1 +1,1 @@
-{"name":"AboutMeSection","id":"sections/about_me","import":"package:devfolio/sections/about_me.dart","params":[]}
+{"name":"AboutMeSection","id":"sections/about_me","import":"package:devfolio/sections/about_me.dart","params":[{"name":"about","isNamed":true,"decoder":"p.get('about')","encoder":"c.about"},{"name":"basic","isNamed":true,"decoder":"p.get('basic')","encoder":"c.basic"}]}
